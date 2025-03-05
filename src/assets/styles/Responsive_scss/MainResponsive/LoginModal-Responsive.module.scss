@@ -1,0 +1,106 @@
+// 태블릿 가로, 세로 : 768px-1023px
+@media (min-width:768px) and (max-width:1023px){
+    .logCon {
+        width: 41%;
+        height: 48%;
+
+        .fieldCon {
+            .cate {
+                font-size: 1.8rem;
+            }
+
+            .logBtn {
+                top: 280px;
+
+                &:hover {
+                    /* 390px 이하에서 호버 비활성화 */
+                    transform: none;
+                    background-color: initial;
+                    color: initial;
+                    border: 1px solid #000000;;
+    
+                &:active {
+                    background-color: #424242;
+                    color: #ffffff;
+                    border: none;
+                }
+                   
+                  }
+                  /* 반응형 자체에서 트랜지션 비활성화 */
+                  transition: none; 
+            }
+        }
+    }
+}
+
+
+// 모바일 가로, 세로 : -767px*
+@media (max-width:767px){
+    .logCon {
+        width: 52%;
+        height: 48%;
+
+        .fieldCon {
+            .cate {
+                font-size: 1.8rem;
+            }
+
+            .logBtn {
+                top: 280px;
+
+                &:hover {
+                    /* 390px 이하에서 호버 비활성화 */
+                    transform: none;
+                    background-color: initial;
+                    color: initial;
+                    border: 1px solid #000000;;
+    
+                &:active {
+                    background-color: #424242;
+                    color: #ffffff;
+                    border: none;
+                }
+                   
+                  }
+                  /* 반응형 자체에서 트랜지션 비활성화 */
+                  transition: none; 
+            }
+        }
+    }
+}
+
+
+// 아이폰 12 반응형
+@media (max-width: 390px) {
+    .logCon {
+        width: 95%;
+        height: 48%;
+
+        .fieldCon {
+            .cate {
+                font-size: 1.8rem;
+            }
+
+            .logBtn {
+                top: 280px;
+
+                &:hover {
+                    /* 390px 이하에서 호버 비활성화 */
+                    transform: none;
+                    background-color: initial;
+                    color: initial;
+                    border: 1px solid #000000;;
+    
+                &:active {
+                    background-color: #424242;
+                    color: #ffffff;
+                    border: none;
+                }
+                   
+                  }
+                  /* 반응형 자체에서 트랜지션 비활성화 */
+                  transition: none; 
+            }
+        }
+    }
+}

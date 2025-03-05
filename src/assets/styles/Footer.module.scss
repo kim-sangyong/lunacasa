@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+footer {
+  position: static;
+  display: flex;
+  flex-direction: column;  
+  text-align: center;
+  margin-top: auto;
+  color: #ffffff;
+  background-color: #333;
+
+  .information {
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 10px; 
+
+    .first, .academy {
+      margin-bottom: 25px;
+      font-size: 1.6rem;
+      font-family: "Roboto", sans-serif;
+      color: #d3d3d3;
+    }
+    .infoText {
+      position: relative;
+      font-size: 1.4rem;
+      color: #d3d3d3;
+
+      &::after {
+                content: "";
+                position: absolute;
+                bottom: -38px;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 25%;
+                border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+                border-color: white;
+        }
+        .infoSpan {
+          margin-left: 3px;
+          margin-right: 10px;
+          color: #d3d3d3;
+      }
+    }
+  }
+    .logo {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 5%; 
+      margin-top: 5px;
+    }
+    .warning{
+      margin-bottom: 20px;
+      font-size: 1.2rem;
+      text-align: center;
+      color: #d3d3d3;
+    
+      .two {
+        margin-top: 25px; 
+      }
+    }
+  }
+
+
+
+/*노트북 & PC : 1024px- 1279px */
+@media (min-width:1024px) and (max-width:1279px){
+  footer .information .infoText {
+    font-size: 1.4rem;
+    
+    &::after {
+      width: 37%;
+     
+    }
+  }
+  .logo img {
+    width: 50px;
+  }
+}
+// 태블릿 가로, 세로 : 768px-1023px
+@media (min-width:768px) and (max-width:1023px){
+  footer .information .infoText {
+    font-size: 1.4rem;
+    
+    &::after {
+      width: 43%;
+     
+    }
+  }
+}
+// 모바일 가로, 세로 : 767px*
+@media (max-width:767px){
+  footer .information .first, 
+  footer .information .academy {
+    font-size: 1.5rem;
+  }
+  footer .information .infoText {
+    font-size: 1.4rem;
+    
+    &::after {
+      
+      width: 55%;
+     
+    }
+  }
+  footer .information .infoSpan {
+    font-size: 1.4rem;
+  }
+  footer .logo {
+    gap: 9%;
+  }
+  .logo img {
+    width: 40px;
+  }
+}
+
+
+// 아이폰 12 반응형
+@media (max-width: 390px) {
+  footer .information .first, 
+  footer .information .academy {
+    font-size: 1.4rem;
+  }
+  footer .information .infoText {
+    font-size: 1.2rem;
+    
+    &::after {
+      
+      width: 70%;
+     
+    }
+  }
+  footer .information .infoSpan {
+    font-size: 1.2rem;
+  }
+  footer .logo {
+    gap: 13%;
+  }
+  .logo img {
+    width: 35px;
+  }
+  .emailWrap {
+    display: block;  // "이메일:"과 주소를 함께 개행하기 위함
+    padding-top: 7px;
+  }
+}
+
+

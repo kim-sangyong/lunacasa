@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;900&family=Roboto:wght@500&display=swap');
+@import "../../styles/Variables_scss/variables";
+
+.sectionCon {
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+
+    .detail {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        
+        .imageContainer {
+            position: relative;
+            right: 100px;
+            padding-right: 200px;
+          }
+          & img {
+            width: 544px; /* 고정된 너비 */
+            height: 534px; /* 고정된 높이 */
+            object-fit: contain;
+          }
+      }
+      .infoContainer {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        
+    
+        .name {
+            position: relative;
+            right: 3px;
+            font-family: "Montserrat", sans-serif;
+            font-size: $font-size-title;
+            font-weight: 600;
+            font-style: normal;
+        }   
+        .delSize {
+            font-size: $font-size-del;
+            padding-bottom: 15px;
+        }
+        .spanSize {
+            position: relative;
+            bottom: 10px;
+            left: 2px;
+            font-size: $font-size-del;
+            color: red;
+            padding-bottom: 20px;
+        }
+        .asideMove {
+            margin-top: 15px;
+
+            .secondName {
+                font-size: $font-size-text;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 300;
+                font-style: normal;
+                color: rgba(0, 0, 0, 0.7);
+                margin-bottom: 30px;
+                padding-bottom: 15px;
+                border-bottom: 2px solid;
+                width: 150%;
+            }
+            .size {
+                position: relative;
+                bottom: 12%;
+                display: flex;
+                flex-direction: row;
+                font-size: 1.5rem;
+
+                .checkBoxMove {
+                    margin-right: 15px;
+                    cursor: pointer; /* 체크박스를 클릭할 수 있도록 */
+                    accent-color: black;
+                    width: 15px; /* 원하는 너비 설정 */
+                    height: 15px; /* 원하는 높이 설정 */
+                }
+            }
+        }
+    }
+    .cartBtn {
+        position: relative;
+        top: 15%;
+        height: 8%;
+        width: 160%;
+        background: #ffffff;
+        border: none;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #000000;
+        font-size: $font-size-comment;
+        cursor: pointer;
+        transition-property: all;
+        transition-duration: 0.3s; /* 트랜지션 지속 시간 */
+        transition-timing-function: ease-in-out; /* 트랜지션 타이밍 함수 */
+    
+        &:hover {
+            transform: translateY(-20%);
+            background-color: #424242;  /* 라이트 그레이 색상 */
+            color: white;
+            border: none;
+    
+        }
+    }
+}
+
+// 상세 정보 ,리뷰, Q&A
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 300px;
+    margin-bottom: 200px;
+    margin-top: 200px;
+
+    .information {
+        position: relative;
+        right: 18px;
+        font-size: $font-size-text;
+        cursor: pointer;
+        transition-property: all;
+        transition-duration: 0.3s; /* 트랜지션 지속 시간 */
+        transition-timing-function: ease-in-out; /* 트랜지션 타이밍 함수 */
+        
+        &:hover {
+            transform: translateY(-40%); /* 부모 요소의 호버 효과 */
+        }
+    
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: -60px;
+            width: 300%;
+            border-bottom: 2px solid black;
+        }
+    }
+    .review {
+        position: relative;
+        right: 18px;
+        font-size: $font-size-text;
+        cursor: pointer;
+        transition-property: all;
+        transition-duration: 0.3s; /* 트랜지션 지속 시간 */
+        transition-timing-function: ease-in-out; /* 트랜지션 타이밍 함수 */
+        
+        &:hover {
+            transform: translateY(-40%); /* 부모 요소의 호버 효과 */
+        }
+    
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: -80px;
+            width: 200px;
+            border-bottom: 2px solid black;
+        }
+    }
+    .question {
+        position: relative;
+        font-size: $font-size-text;
+        cursor: pointer;
+        transition-property: all;
+        transition-duration: 0.3s; /* 트랜지션 지속 시간 */
+        transition-timing-function: ease-in-out; /* 트랜지션 타이밍 함수 */
+        
+        &:hover {
+            transform: translateY(-40%); /* 부모 요소의 호버 효과 */
+        }
+    
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: -78px;
+            width: 200px;
+            border-bottom: 2px solid black;
+        }
+    }
+}
+
+// 상세 정보 시작 css
+
+.mainCon {
+    position: relative;
+    bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .box {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        width: 130px;
+        height: 40px;
+        border: 1px solid #3D3A3A;
+        background-color: #3D3A3A;
+    
+        .boxSecon {
+            position: absolute;
+            top: -3px;
+            color: #ffffff;
+            font-size: $font-size-text;
+            font-family: "Roboto", serif;
+            font-weight: 500;
+            font-style: normal;
+            letter-spacing: $letter-spacing;
+        }
+    }
+    .comment {
+        position: relative;
+        top: 10px;
+        font-size: $font-size-comment;
+        letter-spacing: $letter-spacing;
+        line-height: $line-height;
+        text-align: center;
+        opacity: $opacity;
+    }
+    .springCon {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+    
+        .springImg {
+            width: 60%;
+        }
+    }
+    .springText {
+        margin-top: 30px;
+        font-size: $font-size-text;
+        letter-spacing: $letter-spacing;
+        opacity: $opacity;
+    }
+    .drawerCon {
+        margin-top: 150px;
+        display: flex;
+        justify-content: center;
+
+        .drawerBox {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+            padding: 40px;
+            background: linear-gradient(
+            270deg,
+            rgba(173, 166, 149, 0.3) 0%,
+            rgba(173, 166, 149, 1) 100%
+          ); 
+
+          .drawerImg {
+            display: block;
+            width: 50%;
+            box-shadow: 10px 10px 4px 2px rgba(0, 0, 0, 0.25);
+            }
+        }
+        .drawerCol {
+            display: flex;
+            flex-direction: column;
+
+            .drawerOne, .drawerTwo {
+                position: relative;
+                bottom: 30px;
+                left: 32%;
+                padding-top: 70px;
+                font-size: $font-size-text;
+                text-align: center;
+                letter-spacing: $letter-spacing;
+
+                .drawerBold {
+                    font-weight: 700;
+                }
+
+                .drawerSpan {
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: 900;
+                    font-style: normal;
+                    color: #673D21;
+                }
+            }
+        }
+    }
+    .lowOneCon {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 150px;
+
+        .lowOneImg {
+            z-index: 1;
+            position: relative;
+            left: 2%;
+            width: 22%;
+        }
+    }
+    .lowOneText {
+        position: relative;
+        top: 57px;
+        right: 5%;
+        height: 450px;
+        width: 25%;
+        background: conic-gradient(
+        from 236.35deg at 50% 50%,
+        rgba(204, 192, 185, 0) 0%,
+        rgba(204, 192, 185, 0.5) 50%,
+        rgba(204, 192, 185, 0.8) 100%
+      );
+      box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.25);
+
+      .lowOneEx {
+        position: relative;
+        top: 42%;
+        left: 13%;
+        font-size: $font-size-text;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        text-align: center;
+        line-height: 1.8;
+        letter-spacing: $letter-spacing;
+        opacity: $opacity;
+        }
+    }
+    .blurCon {
+        position: relative;
+        margin-top: 150px;
+        display: flex;
+        justify-content: center;
+
+        .blurText {
+            position: absolute;
+            bottom: 35%;
+            font-size: 2.7rem;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            color: #ffffff;
+            letter-spacing: $letter-spacing;
+
+            .blurSpan {
+                font-size: 3rem;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                color: #9E6F22;
+            }
+        }
+
+        .blurImg {
+            width: 750px;
+            height: 500px;
+        }
+    }
+    .blurCon::after {
+        content: "";
+        position: absolute;
+        top: 250px;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(255, 255, 255, 0.6) 50%,
+            rgba(255, 255, 255, 0.8) 100%
+        );
+    }
+    
+    .blurBottom {
+        position: relative;
+        bottom: 130px;
+        display: flex;
+        flex-direction: column;
+
+        .diagramCon {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            .ellStyle {
+                width: 8%;
+            }
+            .lineStyle {
+                position: relative;
+                top: 20px;
+                height: 5%;
+            }
+        }
+    }
+    .styleText {
+        position: relative;
+        left: 15px;
+        display: flex;
+        flex-direction: row;
+        gap: 200px;
+        font-size: $font-size-text;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: $letter-spacing;
+
+        & span {
+            padding-top: 16px;
+            color: #9E6F22;
+
+            & p {
+                color: black
+            }
+        }
+    }
+    // 인체적용시험 css
+    .reportCon {
+        margin-top: 100px;
+        margin-bottom: 3%;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        width: 40%;
+        background-color: #9EAAA8;
+
+        .reportBox {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            .reportImg {
+                position: relative;
+                width: 50%;
+                padding: 50px;
+            }
+            .reportText {
+                font-size: 2rem;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 600;
+                line-height: 2;
+                letter-spacing: -1px;
+                opacity: 0.9;
+            }
+        }
+    }
+}
+
+// 반응형 임포트
+@import "../Responsive_scss/ResponBedDetail/LowBed-Responsive.module.scss";
+

@@ -1,0 +1,62 @@
+/*노트북 & PC : 1024px- 1279px */
+@media (min-width:1024px) and (max-width:1279px){
+    .arrowMove {
+        position: fixed;
+        right: 8px;
+        width: 55px;
+        height: 55px;
+
+        .northArrow {
+            position: relative;
+            top: 10px;
+        }
+    }
+}
+
+// 태블릿 가로, 세로 : 768px-1023px
+@media (min-width:768px) and (max-width:1023px){
+    .arrowMove {
+        position: fixed;
+        right: 3px;
+        width: 53px;
+        height: 53px;
+
+        .northArrow {
+            position: relative;
+            top: 10px;
+            font-size: 2.8rem;
+        }
+    }
+}
+
+// 작은 테블릿, 큰 모바일(가로) : 767px*
+@media (max-width:767px){
+    .arrowMove {
+        position: fixed;
+        right: 10px;
+        width: 53px;
+        height: 53px;
+
+        .northArrow {
+            position: relative;
+            top: 10px;
+            font-size: 2.8rem;
+        }
+    }
+}
+
+// 아이폰 12 반응형
+@media (max-width: 390px) {
+    .arrowMove {
+        position: fixed;
+        right: 10px;
+        width: 49px;
+        height: 49px;
+
+        .northArrow {
+            position: relative;
+            top: 10px;
+            font-size: 2.6rem;
+        }
+    }
+}

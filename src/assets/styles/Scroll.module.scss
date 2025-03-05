@@ -1,0 +1,22 @@
+.arrowMove {
+    position: fixed;
+    bottom: 70px;
+    right: 50px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.8);
+    display: inline-block;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+
+    .northArrow {
+        position: relative;
+        top: 12px;
+        color: #ffffff;
+        font-size: 3rem;
+    }
+}
+
+// 반응형 임포트
+@import "./Responsive_scss/MainResponsive/Scroll-Responsive.module.scss";

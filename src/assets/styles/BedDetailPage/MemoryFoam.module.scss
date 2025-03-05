@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;900&family=Roboto:wght@500&display=swap');
+@import "../../styles/Variables_scss/variables";
+
+.sectionCon {
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+
+    .detail {
+        position: relative;
+        left: 4%;
+        display: flex;
+        flex-direction: row;
+        
+        .imageContainer {
+            position: relative;
+            right: 100px;
+            padding-right: 200px;
+          }
+          & img {
+            width: 544px; /* 고정된 너비 */
+            height: 534px; /* 고정된 높이 */
+            object-fit: contain;
+          }
+      }
+      .infoContainer {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        
+    
+        .name {
+            position: relative;
+            right: 3px;
+            font-family: "Montserrat", sans-serif;
+            font-size: $font-size-title;
+            font-weight: 600;
+            font-style: normal;
+        }   
+        .delSize {
+            font-size: $font-size-del;
+            padding-bottom: 15px;
+        }
+        .spanSize {
+            position: relative;
+            bottom: 10px;
+            left: 2px;
+            font-size: $font-size-del;
+            color: red;
+            padding-bottom: 20px;
+        }
+        .asideMove {
+            margin-top: 15px;
+
+            .secondName {
+                font-size: $font-size-text;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 300;
+                font-style: normal;
+                color: rgba(0, 0, 0, 0.7);
+                margin-bottom: 30px;
+                padding-bottom: 15px;
+                border-bottom: 2px solid;
+                width: 100%;
+            }
+            .size {
+                position: relative;
+                bottom: 12%;
+                display: flex;
+                flex-direction: row;
+                font-size: 1.5rem;
+
+                .checkBoxMove {
+                    margin-right: 15px;
+                    cursor: pointer; /* 체크박스를 클릭할 수 있도록 */
+                    accent-color: black;
+                    width: 15px; /* 원하는 너비 설정 */
+                    height: 15px; /* 원하는 높이 설정 */
+                }
+            }
+        }
+    }
+    .cartBtn {
+        position: relative;
+        top: 15%;
+        height: 8%;
+        width: 100%;
+        background: #ffffff;
+        border: none;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #000000;
+        font-size: $font-size-comment;
+        cursor: pointer;
+        transition-property: all;
+        transition-duration: 0.3s; /* 트랜지션 지속 시간 */
+        transition-timing-function: ease-in-out; /* 트랜지션 타이밍 함수 */
+    
+        &:hover {
+            transform: translateY(-20%);
+            background-color: #424242;  /* 라이트 그레이 색상 */
+            color: white;
+            border: none;
+    
+        }
+    }
+}
+
+// 상세 정보 ,리뷰, Q&A
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 300px;
+    margin-bottom: 200px;
+    margin-top: 200px;
+
+    .information {
+        position: relative;
+        right: 18px;
+        font-size: $font-size-text;
+        cursor: pointer;
+        transition-property: all;
+        transition-duration: 0.3s; /* 트랜지션 지속 시간 */
+        transition-timing-function: ease-in-out; /* 트랜지션 타이밍 함수 */
+        
+        &:hover {
+            transform: translateY(-40%); /* 부모 요소의 호버 효과 */
+        }
+    
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: -60px;
+            width: 300%;
+            border-bottom: 2px solid black;
+        }
+    }
+    .review {
+        position: relative;
+        right: 18px;
+        font-size: $font-size-text;
+        cursor: pointer;
+        transition-property: all;
+        transition-duration: 0.3s; /* 트랜지션 지속 시간 */
+        transition-timing-function: ease-in-out; /* 트랜지션 타이밍 함수 */
+        
+        &:hover {
+            transform: translateY(-40%); /* 부모 요소의 호버 효과 */
+        }
+    
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: -80px;
+            width: 200px;
+            border-bottom: 2px solid black;
+        }
+    }
+    .question {
+        position: relative;
+        font-size: $font-size-text;
+        cursor: pointer;
+        transition-property: all;
+        transition-duration: 0.3s; /* 트랜지션 지속 시간 */
+        transition-timing-function: ease-in-out; /* 트랜지션 타이밍 함수 */
+        
+        &:hover {
+            transform: translateY(-40%); /* 부모 요소의 호버 효과 */
+        }
+    
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: -78px;
+            width: 200px;
+            border-bottom: 2px solid black;
+        }
+    }
+}
+
+// 상세 정보 시작 css
+
+.mainCon {
+    position: relative;
+    bottom: 80px;
+    display: flex;
+    flex-direction: column;
+
+    .box {
+        position: relative;
+        left: 50%;
+        width: 130px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        transform: translateX(-50%);
+        border: 1px solid #3D3A3A;
+        background-color: #3D3A3A;
+    
+        .boxSecon {
+            position: absolute;
+            top: -3px;
+            font-size: $font-size-text;
+            font-family: "Roboto", serif;
+            font-weight: 500;
+            font-style: normal;
+            letter-spacing: $letter-spacing;
+            color: #ffffff;
+        }
+    }
+    .comment {
+        position: relative;
+        top: 10px;
+        font-size: $font-size-comment;
+        letter-spacing: $letter-spacing;
+        line-height: $line-height;
+        text-align: center;
+        opacity: $opacity;
+    }
+    .boxCon {
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    
+      .mainBox {
+        position: relative;
+        width: 35%;
+        background: rgba(239, 205, 176, 0.5);
+        border-radius: 40px;
+    
+        .cleanTitle {
+            position: relative;
+            width: 90%;
+            top: 50px;
+            left: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: justify; // 글자 안튀어나오게 양쪽 정렬
+    
+            .sleep {
+                font-size: 4rem;
+                font-weight: 900;
+                color: #F47B13;
+                letter-spacing: $letter-spacing;
+            }
+    
+            .sleepText {
+                font-size: $font-size-text;
+                letter-spacing: $letter-spacing;
+                line-height: $line-height;
+                opacity: $opacity;
+            }
+        }
+        .cleanImg {
+            margin-top: 100px;
+            width: 60%;
+        }
+        .sleepDetail {
+            margin-top: 30px;
+            font-size: $font-size-text;
+            letter-spacing: $letter-spacing;
+            line-height: $line-height;
+            opacity: $opacity; 
+        }
+        .flex {
+            display: flex;
+            justify-content: center;
+        
+            .secondBox {
+                margin-top: 60px;
+                width: 80%;
+                border-radius: 10px;
+                background: linear-gradient(
+                90deg,
+                rgba(255, 117, 4, 0.2) 0%,
+                rgba(251, 174, 110, 0.25) 0%,
+                rgba(249, 202, 163, 0.4) 75%,
+                rgba(247, 230, 216, 1) 100%
+              );
+              .flexTitle {
+                font-size: 2rem;
+                font-weight: 700;
+                letter-spacing: $letter-spacing;
+                padding-bottom: 15px;
+              }
+              .flexText {
+                font-size: $font-size-text;
+                font-weight: 5;
+                line-height: $line-height;
+                letter-spacing: $letter-spacing;
+                opacity: $opacity;
+                }
+            }
+        }
+        .cusReview {
+            margin-top: 100px;
+            font-size: 2.5rem;
+            font-weight: 700;
+            letter-spacing: $letter-spacing;
+        }
+        .justifyCon {
+            display: flex;
+            justify-content: center;
+         
+            .colCon {
+                display: flex;
+                flex-direction: column;
+                gap: 60px;
+                width: 80%;
+                border-radius: 15px;
+                margin-bottom: 60px;
+                background: linear-gradient(
+                90deg,
+                rgba(255, 117, 4, 0.2) 0%,
+                rgba(251, 174, 110, 0.25) 0%,
+                rgba(249, 202, 163, 0.4) 75%,
+                rgba(247, 230, 216, 1) 100%
+            );
+                .rowCon {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    justify-content: center;
+                }
+        
+                .borderBox {
+                    position: relative;
+                    top: 17%;
+                    left: 18%;
+                    border-radius: 15px;
+                    width: 27%;
+                    padding: 50px 0px 50px 0px;
+                    box-shadow: 5px 5px 6px 5px rgba(0, 0, 0, 0.25);
+                    background-color: #EEE9D8;
+                }
+                .borderBoxTwo {
+                    z-index: 1;
+                    position: relative;
+                    left: 27%;
+                    bottom: 130%;
+                    border-radius: 15px;
+                    width: 27%;
+                    padding: 50px 0px 50px 0px;
+                    box-shadow: 5px 5px 6px 5px rgba(0, 0, 0, 0.25);
+                    background-color: #EEE9D8;
+                }
+                .people {
+                    position: relative;
+                    bottom: 50%;
+                    font-size: $font-size-text;
+                    font-weight: 500;
+                    border-bottom: solid 1px;
+                    padding-bottom: 15px;
+                }
+                .peopleText {
+                    position: relative;
+                    bottom: 12%;
+                    font-size: $font-size-comment;
+                    font-weight: 300;
+                    letter-spacing: $letter-spacing;
+                }
+            }
+        }
+      }
+    }
+    .threeCon {
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        .threeBox {
+            display: flex;
+            flex-direction: column;
+            width: 38%;
+            height: 350px;
+            background: conic-gradient(
+            from 244.91deg at 50% 50%,
+            rgba(13, 131, 205, 0.85) 0%,
+            rgba(10, 99, 154, 0.77) 51%,
+            rgba(6, 66, 103, 0.85) 100%
+        );
+    }
+        .threeText {
+            position: relative;
+            top: 2%;
+            left: 13%;
+            line-height: 3.5;
+            font-size: 2rem;
+            font-weight: 600;
+            letter-spacing: $letter-spacing;
+            color: #ffffff;
+        }
+    }
+    .rowPCon {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 100px;
+    
+        .rowImg {
+            width: 60px;
+        }
+    
+        .rowPBox {
+            position: relative;
+            bottom: 50px;
+            left: 22%;
+            width: 250px;
+            height: 250px;
+            background-color: #E2DAD3;
+        }
+    }
+    
+    
+    .rowP {
+        position: relative;
+        top: 2%;
+        left: 10%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 60px;
+    
+        .rowPTitle {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+    }
+    .rowPText {
+        position: relative;
+        top: 16%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-size: $font-size-comment;
+        font-weight: 500;
+        opacity: $opacity;
+    }
+}
+
+
+
+.reportSectionCon {
+    display: flex;
+    justify-content: center;
+
+    .reportCon {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 3%;
+        width: 40%;
+        background-color: #9EAAA8;
+
+        .reportBox {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            .reportImg {
+                position: relative;
+                width: 50%;
+                padding: 50px;
+            }
+            .reportText {
+                font-size: 2rem;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 600;
+                line-height: 2;
+                letter-spacing: -1px;
+                opacity: 0.9;
+            }
+        }
+    }
+}
+
+// 반응형 임포트
+@import "../Responsive_scss/ResponBedDetail/MemoryFoam-Responsive.module.scss";

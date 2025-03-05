@@ -1,0 +1,433 @@
+/*노트북 & PC : 1024px- 1279px */
+@media (min-width:1024px) and (max-width:1279px){
+    // 슬라이더 반응형
+    .container {
+        .slider {
+            .sectionOne {
+                .textMove {
+                    position: relative;
+                    bottom: 300px;
+
+                    .oneTitle {
+                        font-size: 2.5rem;
+                    }
+                    .oneText {
+                        font-size: 2.2rem;
+                    }
+                }
+            }
+            .sectionTwo {
+                .textMoveTwo {
+                    position: relative;
+                    bottom: 280px;
+
+                    .oneTitleTwo {
+                        font-size: 1.8rem;
+                    }
+                    .oneTextTwo {
+                        font-size: 2rem;
+                    }
+                }
+            }
+            .sectionThree {
+                .textMoveThree {
+                    position: relative;
+                    bottom: 295px;
+
+                    .oneTitleThree {
+                        font-size: 2rem;
+                    }
+                    .oneTextThree {
+                        font-size: 2.4rem;
+                    }
+                }
+            } 
+        }
+        // 곧 출시 될 품목
+        .asideCon {
+            .aside {
+                .asideTitle {
+                    font-size: 2.3rem;
+                }
+            }
+        }
+        // 카테고리
+        .cateCon {
+            padding: 40px 0px 30px 0px;
+            .cateTitle {
+                position: relative;
+                right: 70px;
+                bottom: 110px;
+                font-size: 2.3rem;
+            }
+            .listCon {
+                .listCol {
+                    .linkCol {
+                        .hoverText {
+                            position: absolute;
+                            top: 45%;
+                            left: 50%;
+
+                        }
+                    }
+                }
+            }
+        }
+        // 마지막 섹션
+        .newItemCon {
+            .newItemList {
+                max-width: 90%;
+            }
+        }
+    }
+}
+
+
+// 태블릿 가로, 세로 : 768px-1023px
+@media (min-width:768px) and (max-width:1023px){
+    // 슬라이더 반응형
+    .container {
+        .slider {
+            .sectionOne {
+                .textMove {
+                    position: relative;
+                    bottom: 270px;
+
+                    .oneTitle {
+                        font-size: 2.3rem;
+                    }
+                    .oneText {
+                        font-size: 2.1rem;
+                    }
+                }
+            }
+            .sectionTwo {
+                .textMoveTwo {
+                    position: relative;
+                    bottom: 230px;
+                    left: 4%;
+
+                    .oneTitleTwo {
+                        font-size: 1.7rem;
+                    }
+                    .oneTextTwo {
+                        font-size: 1.8rem;
+                    }
+                }
+            }
+            .sectionThree {
+                .textMoveThree {
+                    position: relative;
+                    bottom: 245px;
+
+                    .oneTitleThree {
+                        font-size: 1.8rem;
+                    }
+                    .oneTextThree {
+                        font-size: 2.1rem;
+                    }
+                }
+            } 
+        }
+        // 곧 출시 될 품목
+        .asideCon {
+            .aside {
+                .asideTitle {
+                    font-size: 2.1rem;
+                }
+                .asideSpan {
+                    font-size: 1.7rem;
+                    font-weight: 700;
+                }
+            }
+            .chairList {
+                .chairItem {
+                    .chairName {
+                        font-size: 1.6rem;
+                    }
+                }
+            }
+        }
+        // 카테고리
+        .cateCon {
+            padding: 40px 0px 30px 0px;
+            .cateTitle {
+                position: relative;
+                right: 50px;
+                bottom: 85px;
+                font-size: 2rem;
+            }
+            .listCon {
+                .listCon {
+                    .listCol {
+                        .listImg {
+                            max-width: 160px;
+                        }
+                        .cateName {
+                            font-size: 1.7rem;
+                        }
+                    }
+                }
+            }
+        }
+        // 마지막 섹션
+        .newItemCon {
+            .newItemList {
+                max-width: 90%;
+            }
+            .newItemTitle {
+                font-size: 2.3rem;
+            }
+        }
+    }
+}
+
+// 모바일 가로, 세로 : -767px*
+@media (max-width:767px){
+       // 슬라이더 반응형
+       .container {
+        .slider {
+            .sectionOne {
+                .textMove {
+                    position: relative;
+                    bottom: 215px;
+
+                    .oneTitle {
+                        font-size: 2rem;
+                    }
+                    .oneText {
+                        font-size: 1.8rem;
+                    }
+                }
+            }
+            .sectionTwo {
+                .textMoveTwo {
+                    position: relative;
+                    bottom: 190px;
+                    left: 4%;
+
+                    .oneTitleTwo {
+                        font-size: 1.5rem;
+                    }
+                    .oneTextTwo {
+                        font-size: 1.6rem;
+                    }
+                }
+            }
+            .sectionThree {
+                .textMoveThree {
+                    position: relative;
+                    bottom: 200px;
+
+                    .oneTitleThree {
+                        font-size: 1.6rem;
+                    }
+                    .oneTextThree {
+                        font-size: 1.8rem;
+                    }
+                }
+            } 
+        }
+        // 곧 출시 될 품목
+        .asideCon {
+            .aside {
+                position: relative;
+                right: 5%;
+                .asideTitle {
+                    font-size: 2rem;
+                }
+                .asideSpan {
+                    font-size: 1.6rem;
+                    font-weight: 700;
+                }
+            }
+            .chairList {
+                position: relative;
+                right: 3%;
+                .chairItem {
+                    .chairImg {
+                        width: 85%;
+                    }
+                    .chairName {
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+        // 카테고리
+        .cateCon {
+            padding: 50px 0px 25px 0px;
+            .cateTitle {
+                position: relative;
+                right: 15px;
+                bottom: 120px;
+                font-size: 1.8rem;
+            }
+            .listCon {
+                position: relative;
+                right: 40px;
+                grid-gap: 45px;
+                .listCol {
+                    .listImg {
+                        width: 90%;
+                        max-width: 160px;
+                    }
+                    .cateName {
+                        font-size: 1.5rem;
+                    }
+                    .linkCol {
+                        .hoverText {
+                            position: absolute;
+                            opacity: 1;
+                            transform: translate(-50%, -50%) scale(1);
+                            background-color: rgba(0, 0, 0, 0.7);
+                            top: 42%;
+                            left: 45%;
+                        }
+                    }
+                }
+            }
+        }
+        // 마지막 섹션
+        .newItemCon {
+            .newItemTitle {
+                font-size: 2.2rem;
+            }
+            .newItemList {
+                max-width: 95%;
+            }
+        }
+    }
+}
+
+
+// 아이폰 12 반응형
+@media (max-width: 390px) {
+           // 슬라이더 반응형
+           .container {
+            .slider {
+                .sectionOne {
+                    .textMove {
+                        position: relative;
+                        bottom: 110px;
+    
+                        .oneTitle {
+                            font-size: 1.3rem;
+                            font-weight: 500;
+                            
+                        }
+                        .oneText {
+                            font-size: 1.2rem;
+                            font-weight: 400;
+                        }
+                    }
+                }
+                .sectionTwo {
+                    .textMoveTwo {
+                        display: none;
+                    }
+                }
+                .sectionThree {
+                    .textMoveThree {
+                        position: relative;
+                        bottom: 100px;
+    
+                        .oneTitleThree {
+                            font-size: 1.1rem;
+                        }
+                        .oneTextThree {
+                            font-size: 1.2rem;
+                            font-weight: 500;
+                            line-height: 1.5;
+                            letter-spacing: -0.5px;
+                        }
+                    }
+                } 
+            }
+            // 곧 출시 될 품목
+        .asideCon {
+            display: flex;
+            flex-direction: column;
+            max-width: 28%;
+            .aside {
+                position: relative;
+                top: 30px;
+                right: 19%;
+                gap: 10px;
+                .asideTitle {
+                    position: relative;
+                    top: 5px;
+                    left: 10px;
+                    font-size: 1.5rem;
+                    margin-top: 70px;
+                }
+                .asideSpan {
+                    display: none;
+                    font-size: 1.4rem;
+                    font-weight: 700;
+                }
+            }
+            .chairList {
+                position: relative;
+                top: 30px;
+                right: 51%;
+                margin-bottom: 40px;
+                grid-gap: 40px;
+                .chairItem {
+                    min-width: 130%;
+                    .chairImg {
+                        width: 100%;
+                    }
+                    .chairName {
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+        }
+        // 카테고리
+        .cateCon {
+            padding: 35px 0px 10px 0px;
+            border-radius: 0;
+            .cateTitle {
+                position: relative;
+                left: 30px;
+                bottom: 75px;
+                font-size: 1.4rem;
+            }
+            .listCon {
+                position: relative;
+                top: 5px;
+                right: 40px;
+                grid-gap: 20px;
+                .listCol {
+                    .listImg {
+                        width: 90%;
+                        max-width: 160px;
+                    }
+                    .cateName {
+                        font-size: 1.4rem;
+                    }
+                    .linkCol {
+                        .hoverText {
+                            position: absolute;
+                            top: 37%;
+                            left: 45%;
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+        // 마지막 섹션
+        .newItemCon {
+            .newItemTitle {
+                font-size: 2rem;
+                padding: 0;
+            }
+            .newItemList {
+                grid-gap: 7px;
+                max-width: 95%;
+            }
+        }
+    }
+}

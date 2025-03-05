@@ -1,0 +1,585 @@
+/*노트북 & PC : 1024px- 1279px */
+@media (min-width:1024px) and (max-width:1279px){
+    .sectionCon {
+    .detail .imageContainer {
+        position: relative;
+        right: -5%;
+        
+        .mainImg {
+            width: 504px;
+            height: 494px;
+            object-fit: contain;
+        }
+      }
+      .cartBtn {
+        position: relative;
+        left: 3px;
+        width: 93%;
+        }
+    }
+    //상세정보 시작
+    .mainCon {
+        .WaterDropCon {
+            .WaterDropImg {
+                width: 20%;
+            }
+        }
+        // 인체적용시험 css
+        .reportCon {
+            width: 57%;
+
+            .reportBox {
+                .reportImg {
+                    width: 46%;
+                }
+                .reportText {
+                    position: relative;
+                    right: 17px;
+                }
+            }
+        }
+    }
+}
+
+// 태블릿 가로, 세로 : 768px-1023px
+@media (min-width:768px) and (max-width:1023px){
+    .sectionCon .detail .imageContainer {
+        position: relative;
+        left: 4%;
+        .mainImg {
+            width: 450px;
+            height: 440px;
+          }
+      } 
+      .sectionCon .infoContainer {
+        position: relative;
+        bottom: 10px;
+        right: 6%;
+       .name {
+            position: relative;
+            right: 3px;
+            font-size: 2.1rem;
+        }
+        .delSize {
+            font-size: 1.8rem;
+            
+        }
+        .spanSize {
+            font-size: 1.8rem;
+        }
+      }
+    .sectionCon .infoContainer .asideMove {
+
+    .size {
+        font-size: 1.5rem;
+        } 
+    }
+    .sectionCon {
+        .cartBtn {
+            position: relative;
+            left: -2px;
+            height: 10%;
+        } 
+    }  
+    // 상세정보 , 리뷰 ,Q&A
+    .list{
+        gap: 270px;
+        .information {
+            &::after {
+                position: absolute;
+                left: -45px;
+                width: 250%;
+            }
+        }
+        .review {
+            &::after {
+                position: absolute;
+                left: -65px;
+                width: 168px;
+            }
+        }
+        .question {
+            &::after {
+                position: absolute;
+                left: -63px;
+                width: 165px;
+            }
+        }
+    }
+    //상세정보 시작
+    .mainCon {
+        .waterDropCon {
+            .waterDropImg {
+                width: 22%;
+            }
+        }
+        .secondCon {
+            .secondTop {
+                .secondText {
+                    font-size: 2.2rem;
+                }
+            }
+        }
+        .secondRow {
+            position: absolute;
+            top: 74%;
+        }
+        .blurCon {
+            .secondImg {
+                width: 530px;
+                height: 410px;
+            }
+        }
+        .blurCon::after {
+            position: absolute;
+            top: 269px; 
+        }
+        .threeCon {
+            .dropCon {
+                .dropImg {
+                    width: 530px;
+                    height: 410px;
+                }
+            }
+            .dropCon::before {
+                height: 70%;
+            }
+            .stainCon {
+                position: relative;
+                bottom: 175px; 
+                gap: 30px;
+            }
+        }
+        .lastSection {
+            .lastImg {
+                width: 410px;
+                height: 460px;
+            }
+            .lastBox {
+                width: 370px;
+                height: 350px;
+
+                .lastTitle {
+                    font-size: 1.7rem;
+                }
+            }
+        }
+        // 인체적용시험 css
+        .reportCon {
+            width: 65%;
+
+            .reportBox {
+                .reportImg {
+                    width: 43%;
+                }
+                .reportText {
+                    position: relative;
+                    right: 8px;
+                }
+            }
+        }
+    }
+}
+
+// 작은 테블릿, 큰 모바일(가로) : 767px*
+@media (max-width:767px){
+    .sectionCon  {
+        .detail {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .mainImg {
+                position: relative;
+                width: 450px;
+                height: 440px;
+                left: 43%;
+            }
+        }
+        .infoContainer {
+            position: relative;
+            bottom: 100px;
+            right: 14%;
+
+            .name {
+                font-size: 2rem;
+            }
+            .delSize{
+                font-size: 1.7rem;
+                
+            }
+            .spanSize {
+                position: relative;
+                left: -0px;
+                font-size: 1.7rem;
+                padding: 0;
+            }
+            .asideMove .secondName {
+                margin-bottom: 18px;
+            }
+            .size {
+                position: relative;
+                right: 4px;
+            }
+            .cartBtn {
+                position: relative;
+                top: 50px;
+                height: 42px;
+                left: -1px;
+                width: 92%;
+            }
+        }
+    }
+    // 상세정보 , 리뷰, Q&A
+    .list{
+        gap: 200px;
+        .information {
+            &::after {
+                position: absolute;
+                left: -37px;
+                width: 220%;
+            }
+        }
+        .review {
+            &::after {
+                position: absolute;
+                left: -55px;
+                width: 150px;
+            }
+        }
+        .question {
+            &::after {
+                position: absolute;
+                left: -52px;
+                width: 145px;
+            }
+        }
+    }
+    //상세정보 시작
+    .mainCon {
+        .waterDropCon {
+            .waterDropImg {
+                width: 28%;
+            }
+        }
+        .secondCon {
+            .secondTop {
+                .secondText {
+                    font-size: 2.2rem;
+                }
+            }
+            .blurCon {
+                .secondImg {
+                    width: 500px;
+                    height: 380px;
+                }
+            }
+            .blurCon::after {
+                position: absolute;
+                top: 261px;
+                left: 32px; 
+                width: 89%;
+            }
+            .secondRow {
+                position: absolute;
+                top: 75%;
+    
+                .boxOne {
+                    font-size: 1.5rem;
+                }
+                .boxTwo {
+                    font-size: 1.5rem;
+    
+                    & p {
+                        padding: 1px;
+                    }
+                }
+            }
+        }
+        .threeCon {
+            .dropCon {
+                .dropImg {
+                    width: 500px;
+                    height: 380px;
+                }
+                & p {
+                    font-size: 2rem;
+
+                    & span {
+                        font-size: 2.2rem;
+                    }
+                }
+            }
+            .dropCon::before {
+                position: absolute;
+                width: 100%;
+                height: 70%;
+            }
+            .stainCon {
+                gap: 35px;
+                .dropBox {
+                    .stainText {
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+        .lastSection {
+            .lastImg {
+                width: 370px;
+                height: 420px;
+            }
+            .lastBox {
+                width: 370px;
+                height: 350px;
+
+                .lastTitle {
+                    font-size: 1.7rem;
+                }
+            }
+        }
+        // 인체적용시험 css
+        .reportCon {
+            width: 80%;
+
+            .reportBox {
+                .reportImg {
+                    width: 40%;
+                }
+                .reportText {
+                    position: relative;
+                    right: 5px;
+                }
+            }
+        }
+    }
+}
+
+// 아이폰 12 반응형
+@media (max-width: 390px) {
+    .sectionCon  {
+        .detail {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .mainImg {
+                position: relative;
+                width: 350px;
+                height: 340px;
+                left: 52%;
+            }
+        }
+        .infoContainer {
+            position: relative;
+            bottom: 70px;
+            right: 56px;
+
+            .name {
+                font-size: 1.8rem;
+            }
+            .delSize{
+                font-size: 1.7rem;
+                
+            }
+            .spanSize {
+                position: relative;
+                left: -0px;
+                font-size: 1.7rem;
+                padding: 0;
+            }
+            .asideMove {
+                margin-top: 3px;
+
+                .size {
+                    position: relative;
+                    right: 4px;
+                    font-size: 1.4rem;
+                }
+            }
+            .secondName {
+                margin-bottom: 18px;
+            }
+            .cartBtn {
+                position: relative;
+                top: 50px;
+                height: 42px;
+            }
+        }
+    }
+    // 상세정보 , 리뷰, Q&A
+    .list{
+        gap: 75px;
+        .information {
+            font-size: 1.5rem;
+            &::after {
+                position: absolute;
+                left: -18px;
+                width: 100px;
+            }
+        }
+        .review {
+            font-size: 1.5rem;
+            &::after {
+                position: absolute;
+                left: -34px;
+                width: 105px;
+            }
+        }
+        .question {
+            font-size: 1.5rem;
+            &::after {
+                position: absolute;
+                left: -32px;
+                width: 100px;
+            }
+        }
+    }
+    // 상세정보 시작
+    .mainCon{
+        .box {
+            width: 115px;
+        }
+        .comment {
+            position: relative;
+            left: 20px;
+            width: 90%;
+        }
+        .waterDropCon {
+            .waterDropImg {
+                width: 50%;
+            }
+        }
+        .waterDropText {
+            font-size: 1.4rem;
+            letter-spacing: -1px;
+            margin-top: 15px;
+        }
+        .secondCon {
+            .secondTop {
+                .secondText {
+                    font-size: 1.7rem;
+                    letter-spacing: -1px;
+                }
+            }
+            .blurCon {
+                .secondImg {
+                    width: 370px;
+                    height: 280px;
+                }
+            }
+            .blurCon::after {
+                position: absolute;
+                width: 100%;
+                top: 191px;
+                left: 0px; 
+            }
+            .secondRow {
+                position: absolute;
+                top: 68%;
+                gap: 75px;
+    
+                .boxOne {
+                    font-size: 1.4rem;
+                }
+                .boxTwo {
+                    font-size: 1.4rem;
+    
+                    & p {
+                        padding: 1px;
+                    }
+                }
+            }
+        }
+        .threeCon {
+            .dropCon {
+                .dropImg {
+                    width: 370px;
+                    height: 280px;
+                }
+                & p {
+                    position: absolute;
+                    top: 25px;
+                    font-size: 1.8rem;
+
+                    & span {
+                        font-size: 2rem;
+                    }
+                }
+            }
+            .dropCon::before {
+                position: absolute;
+                width: 100%;
+                height: 65%;
+                
+            }
+            .stainCon {
+                position: relative;
+                padding-top: 15px;
+                gap: 8px;
+                .dropBox {
+                    .stainText {
+                        font-size: 1.3rem;
+                    }
+                }
+                .circle {
+                    padding: 8px;
+                }
+                .circle p {
+                        font-size: 1.8rem;
+                }
+                
+            }
+        }
+        .lastSection {
+            position: relative;
+            .lastImg {
+                position: absolute;
+                left: 60px;
+                width: 200px;
+                height: 250px;
+                border-radius: 15px;
+                opacity: 0.4;
+                z-index: 1;
+            }
+            .lastBox {
+                width: 320px;
+                height: 300px;
+
+                .lastTitle {
+                    font-size: 1.5rem;
+                    letter-spacing: -1px;
+
+                    & span {
+                        font-size: 1.5rem;
+                    }
+                }
+                .lastText {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        // 인체적용시험 css
+        .reportCon {
+            width: 94%;
+
+            .reportBox {
+                .reportImg {
+                    position: relative;
+                    right: 39px;
+                    width: 40%;
+                }
+                .reportText {
+                    position: relative;
+                    right: 21%;
+                    font-size: 1.5rem;
+                    line-height: 1.5;
+                    white-space: nowrap;
+                    
+                }
+            }
+        }
+    }
+}

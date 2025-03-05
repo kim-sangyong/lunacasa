@@ -1,0 +1,7 @@
+html, body {
+  scrollbar-color: #1e1e1e #ffffff;
+  scrollbar-width: thin;
+  /* overflow-x: hidden;
+  반응형에서 가로 영역이 생겨버림 적용 고민하자 */ 
+  font-size: 10px; /* rem값을 쉽게 적용하기 위해 10px로 지정함 */
+}

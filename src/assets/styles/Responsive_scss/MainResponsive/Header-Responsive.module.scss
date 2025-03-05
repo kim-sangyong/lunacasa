@@ -1,0 +1,128 @@
+/*노트북 & PC : 1024px-*/
+@media (min-width:1024px) and (max-width:1279px){
+    .headerMove {
+        position: absolute;
+        left: 5%;
+        width: 63%;
+
+        .memberContainer {
+            position: relative;
+            left: 76%;
+        }
+        .menu {
+            width: 37px;
+        }
+
+        .homeBtn .mainLogo {
+            width: 150px;
+        }
+        .searchMove .searchInput {
+            position: relative;
+            left: 50%;
+            font-size: 1.6rem;
+        }
+    }
+}
+
+// 태블릿 가로, 세로 : 768px-1023px
+@media (min-width:768px) and (max-width:1023px){
+    .headerMove {
+        position: absolute;
+        left: 5%;
+        width: 56%;
+
+        .memberContainer {
+            position: relative;
+            left: 79%;
+        }
+
+        .menu {
+            width: 34px;
+        }
+
+        .homeBtn .mainLogo {
+            width: 140px;
+        }
+
+        .searchMove .searchInput {
+            position: relative;
+            left: 55%;
+            font-size: 1.4rem;
+        }
+        .memberContainer {
+            .spanText {
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+
+// 모바일 가로, 세로 : -767px*
+@media (max-width:767px){
+    .headerMove {
+        position: absolute;
+        left: 5%;
+        width: 62%;
+        .menu {
+            width: 34px;
+        }
+
+        .homeBtn .mainLogo {
+            width: 130px;
+        }
+
+        .searchMove .searchInput {
+            display: none;
+        }
+        .memberContainer {
+            position: relative;
+            left: 111%;
+            gap: 23px;
+
+            .memberImg {
+                width: 25px;
+            }
+            .spanText {
+                display: none;
+            }
+        }
+    }
+}
+
+// 아이폰 12 반응형
+@media (max-width: 390px) {
+    .headerMove {
+        position: absolute;
+        left: 8%;
+        .menu {
+            position: relative;
+            top: 15px;
+            width: 30px;
+        }
+        
+        .homeBtn {
+            position: relative;
+            left: 65px;
+            bottom: 45px;
+            .mainLogo {
+                position: absolute;
+                width: 115px;
+            }
+
+        }
+        .searchMove .searchInput {
+            display: none;
+
+        }
+        .memberContainer {
+            position: relative;
+            top: 15px;
+            left: 83%;
+            gap: 18px;
+
+            .memberImg {
+                width: 24px;
+            }
+        }
+    }
+}

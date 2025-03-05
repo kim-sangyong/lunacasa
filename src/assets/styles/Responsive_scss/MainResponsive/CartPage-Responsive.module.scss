@@ -1,0 +1,93 @@
+/*노트북 & PC : 1024px- 1279px */
+@media (min-width:1024px) and (max-width:1279px){
+    .cartCon{
+
+        .cartTitle{
+            position: relative;
+            top: 75px;
+            font-size: 2.2rem;
+            width: 35%;
+        }
+        .cartSvg {
+            position: relative;
+            top: 70px;
+            width: 53%;
+        }
+        .cartText {
+            position: relative;
+            font-size: 1.8rem;
+        }
+    }
+}
+
+
+// 태블릿 가로, 세로 : 768px-1023px
+@media (min-width:768px) and (max-width:1023px){
+    .cartCon{
+
+        .cartTitle{
+            position: relative;
+            top: 75px;
+            font-size: 2.2rem;
+            width: 40%;
+        }
+        .cartSvg {
+            position: relative;
+            top: 70px;
+            width: 60%;
+        }
+        .cartText {
+            position: relative;
+            font-size: 1.8rem;
+        }
+    }
+}
+
+
+
+// 모바일 가로, 세로 : -767px*
+@media (max-width:767px){
+    .cartCon{
+
+        .cartTitle{
+            position: relative;
+            top: 55px;
+            font-size: 2.2rem;
+            width: 45%;
+        }
+        .cartSvg {
+            position: relative;
+            top: 35px;
+            width: 80%;
+        }
+        .cartText {
+            position: relative;
+            bottom: 30px;
+            font-size: 1.7rem;
+        }
+    }
+}
+
+
+// 아이폰 12 반응형
+@media (max-width: 390px) {
+    .cartCon{
+
+        .cartTitle{
+            position: relative;
+            top: 0px;
+            font-size: 2.2rem;
+            width: 70%;
+        }
+        .cartSvg {
+            position: relative;
+            top: 45px;
+            width: 110%;
+        }
+        .cartText {
+            position: relative;
+            bottom: 15px;
+            font-size: 1.7rem;
+        }
+    }
+}

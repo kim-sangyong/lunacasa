@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;900&family=Roboto:wght@500&display=swap');
+@import "../../styles/Variables_scss/variables";
+
+.sectionCon {
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+
+    .detail {
+        position: relative;
+        left: 4%;
+        display: flex;
+        flex-direction: row;
+        
+        .imageContainer {
+            position: relative;
+            right: 100px;
+            padding-right: 200px;
+          }
+          & img {
+            width: 544px; /* 고정된 너비 */
+            height: 534px; /* 고정된 높이 */
+            object-fit: contain;
+          }
+      }
+      .infoContainer {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        
+    
+        .name {
+            position: relative;
+            right: 3px;
+            font-family: "Montserrat", sans-serif;
+            font-size: $font-size-title;
+            font-weight: 600;
+            font-style: normal;
+        }   
+        .delSize {
+            font-size: $font-size-del;
+            padding-bottom: 15px;
+        }
+        .spanSize {
+            position: relative;
+            bottom: 10px;
+            left: 2px;
+            font-size: $font-size-del;
+            color: red;
+            padding-bottom: 20px;
+        }
+        .asideMove {
+            margin-top: 15px;
+
+            .secondName {
+                font-size: $font-size-text;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 300;
+                font-style: normal;
+                color: rgba(0, 0, 0, 0.7);
+                margin-bottom: 30px;
+                padding-bottom: 15px;
+                border-bottom: 2px solid;
+                width: 100%;
+            }
+            .size {
+                position: relative;
+                bottom: 12%;
+                display: flex;
+                flex-direction: row;
+                font-size: 1.5rem;
+
+                .checkBoxMove {
+                    margin-right: 15px;
+                    cursor: pointer; /* 체크박스를 클릭할 수 있도록 */
+                    accent-color: black;
+                    width: 15px; /* 원하는 너비 설정 */
+                    height: 15px; /* 원하는 높이 설정 */
+                }
+            }
+        }
+    }
+    .cartBtn {
+        position: relative;
+        top: 15%;
+        left: 3%;
+        height: 8%;
+        width: 95%;
+        background: #ffffff;
+        border: none;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #000000;
+        font-size: $font-size-comment;
+        cursor: pointer;
+        transition-property: all;
+        transition-duration: 0.3s; /* 트랜지션 지속 시간 */
+        transition-timing-function: ease-in-out; /* 트랜지션 타이밍 함수 */
+    
+        &:hover {
+            transform: translateY(-20%);
+            background-color: #424242;  /* 라이트 그레이 색상 */
+            color: white;
+            border: none;
+    
+        }
+    }
+}
+
+// 상세 정보 ,리뷰, Q&A
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 300px;
+    margin-bottom: 200px;
+    margin-top: 200px;
+
+    .information {
+        position: relative;
+        right: 18px;
+        font-size: $font-size-text;
+        cursor: pointer;
+        transition-property: all;
+        transition-duration: 0.3s; /* 트랜지션 지속 시간 */
+        transition-timing-function: ease-in-out; /* 트랜지션 타이밍 함수 */
+        
+        &:hover {
+            transform: translateY(-40%); /* 부모 요소의 호버 효과 */
+        }
+    
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: -60px;
+            width: 300%;
+            border-bottom: 2px solid black;
+        }
+    }
+    .review {
+        position: relative;
+        right: 18px;
+        font-size: $font-size-text;
+        cursor: pointer;
+        transition-property: all;
+        transition-duration: 0.3s; /* 트랜지션 지속 시간 */
+        transition-timing-function: ease-in-out; /* 트랜지션 타이밍 함수 */
+        
+        &:hover {
+            transform: translateY(-40%); /* 부모 요소의 호버 효과 */
+        }
+    
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: -80px;
+            width: 200px;
+            border-bottom: 2px solid black;
+        }
+    }
+    .question {
+        position: relative;
+        font-size: $font-size-text;
+        cursor: pointer;
+        transition-property: all;
+        transition-duration: 0.3s; /* 트랜지션 지속 시간 */
+        transition-timing-function: ease-in-out; /* 트랜지션 타이밍 함수 */
+        
+        &:hover {
+            transform: translateY(-40%); /* 부모 요소의 호버 효과 */
+        }
+    
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: -78px;
+            width: 200px;
+            border-bottom: 2px solid black;
+        }
+    }
+}
+
+
+
+// 상세 정보 시작 css
+
+.mainCon {
+    position: relative;
+    bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .box {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        width: 130px;
+        height: 40px;
+        border: 1px solid #3D3A3A;
+        background-color: #3D3A3A;
+    
+        .boxSecon {
+            position: absolute;
+            top: -3px;
+            font-size: $font-size-text;
+            font-family: "Roboto", serif;
+            letter-spacing: $letter-spacing;
+            font-weight: 500;
+            font-style: normal;
+            color: #ffffff;
+        }
+    }
+    .comment {
+        position: relative;
+        top: 10px;
+        font-size: $font-size-comment;
+        opacity: $opacity;
+        text-align: center;
+        line-height: $line-height;
+        letter-spacing: $letter-spacing;
+    }
+    .threadCon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 150px;
+    
+        .threadText {
+            position: relative;
+            right: 100px;
+            font-size: 2rem;
+            font-weight: 500;
+            opacity: $opacity;
+            line-height: $line-height;
+
+            .threadSpan {
+                font-size: 2.2rem;
+                font-weight: 700;
+                color:#000000;
+            }
+        }
+        .threadImg {
+            width: 25%;
+        }
+    }
+    .knittingCon {
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        .knittingText {
+            position: relative;
+            right: 145px;
+            font-size: $font-size-title;
+            font-weight: 700;
+            letter-spacing: $letter-spacing;
+            color:#000000;
+        }
+        .knittingImg {
+            width: 25%;
+        }
+        .knittingEx {
+            position: relative;
+            right: 3px;
+            font-size: 1.8rem;
+            line-height: $line-height;
+            letter-spacing: $letter-spacing;
+            opacity: $opacity;
+        }
+    }
+    .pastelCon {
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        .pastelText {
+            position: relative;
+            right: 62px;
+            font-size: $font-size-title;
+            font-weight: 700;
+            letter-spacing: $letter-spacing;
+            color:#000000;
+        }
+        .pastelImg {
+            width: 25%;
+        }
+        .pastelEx {
+            position: relative;
+            right: 8px;
+            font-size: 1.8rem;
+            line-height: $line-height;
+            letter-spacing: $letter-spacing;
+            opacity: $opacity;
+        }
+    }
+    .bookCon {
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        .bookText {
+            position: relative;
+            right: 152px;
+            font-size: 2rem;
+            font-weight: 500;
+            opacity: $opacity;
+            line-height: $line-height;
+            letter-spacing: $letter-spacing;
+    
+            .bookSpan {
+                font-size: $font-size-title;
+                font-weight: 700;
+                color:#000000;
+            }
+        }
+        .bookImg {
+            width: 600px;
+            height: 500px;
+            object-fit: cover;
+        }
+        .bookEx {
+            position: relative;
+            right: 123px;
+            font-size: 1.8rem;
+            line-height: $line-height;
+            letter-spacing: $letter-spacing;
+            opacity: $opacity;
+    
+            .bookExSpan {
+                font-weight: 700;
+                color:#000000;
+            }
+        }
+    }
+    .reportCon {
+        display: flex;
+        margin-top: 150px;
+        margin-bottom: 3%;
+        flex-direction: row;
+        text-align: center;
+        width: 40%;
+        background-color: #9EAAA8;
+
+        .reportBox {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            .reportImg {
+                position: relative;
+                width: 50%;
+                padding: 50px;
+            }
+            .reportText {
+                font-size: 2rem;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 600;
+                line-height: 2;
+                letter-spacing: -1px;
+                opacity: 0.9;
+            }
+        }
+    }
+}
+
+// 반응형 임포트
+@import "../Responsive_scss/ResponsiveSofaDetail/VintageSofa-Responsive.module.scss";

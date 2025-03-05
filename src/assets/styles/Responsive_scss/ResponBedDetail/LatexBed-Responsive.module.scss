@@ -1,0 +1,549 @@
+/*노트북 & PC : 1024px- 1279px */
+@media (min-width:1024px) and (max-width:1279px){
+    .sectionCon .detail .imageContainer {
+        position: relative;
+        right: -5%;
+        
+        .mainImg {
+            width: 504px;
+            height: 494px;
+            object-fit: contain;
+        }
+      }
+      //상세 정보 시작
+      .mainCon {
+        .imageBox {
+            width: 55%;
+
+            .girlTwo {
+                width: 60%;
+            }
+            .colCon {
+                position: relative;
+                right: 6%;
+            }
+
+            .boxColumn {
+                position: relative;
+                bottom: 30px;
+            }
+            .boxColumnTwo {
+                position: relative;
+                top: 40px;
+
+                .topTwo {
+                    position: relative;
+                    bottom: 36%;
+                }
+            }
+        }
+        .endSection{
+            .hTwo {
+                font-size: 2.6rem;
+            }
+            .latexImg {
+                width: 38%;
+                margin-bottom: 50px;
+            }
+        }
+        // 인체적용시험 css
+        .reportCon {
+            width: 57%;
+
+            .reportBox {
+                .reportImg {
+                    width: 46%;
+                }
+                .reportText {
+                    position: relative;
+                    right: 17px;
+                }
+            }
+        }
+    }
+}
+
+// 태블릿 가로, 세로 : 768px-1023px
+@media (min-width:768px) and (max-width:1023px){
+    .sectionCon .detail .imageContainer {
+        position: relative;
+        right: -2%;
+        .mainImg {
+            width: 450px;
+            height: 440px;
+          }
+      } 
+      .sectionCon .infoContainer {
+        position: relative;
+        bottom: 10px;
+        right: 10%;
+       .name {
+            position: relative;
+            right: 3px;
+            font-size: 2.1rem;
+        }
+        .delSize {
+            font-size: 1.8rem;
+            
+        }
+        .spanSize {
+            font-size: 1.8rem;
+        }
+      }
+    .sectionCon .infoContainer .asideMove {
+
+    .size {
+        font-size: 1.5rem;
+        } 
+    }
+    .sectionCon {
+        .cartBtn {
+            height: 10%;
+        } 
+    }  
+    // 상세정보 , 리뷰 ,Q&A
+    .list{
+        gap: 270px;
+        .information {
+            &::after {
+                position: absolute;
+                left: -45px;
+                width: 250%;
+            }
+        }
+        .review {
+            &::after {
+                position: absolute;
+                left: -65px;
+                width: 168px;
+            }
+        }
+        .question {
+            &::after {
+                position: absolute;
+                left: -63px;
+                width: 165px;
+            }
+        }
+    }
+    // 상세정보 시작
+    .mainCon{
+        .customerCon {
+            .customer {
+                font-size: 2.6rem;
+            }
+            .boxWrap {
+                gap: 65px;
+            }
+        }
+        .latexPre {
+            .girl {
+                width: 45%;
+            }
+        }
+        .imageBox {
+            width: 55%;
+
+            .girlTwo {
+                width: 80%;
+            }
+            .colCon {
+                position: relative;
+                right: 6%;
+            }
+
+            .boxColumn {
+                position: relative;
+                bottom: 30px;
+            }
+            .boxColumnTwo {
+                position: relative;
+                top: 40px;
+
+                .topTwo {
+                    position: relative;
+                    bottom: 36%;
+                }
+            }
+        }
+        .endSection{
+            .hTwo {
+                font-size: 2.6rem;
+            }
+            .latexImg {
+                width: 42%;
+                margin-bottom: 100px;
+            }
+        }
+        // 인체적용시험 css
+        .reportCon {
+            width: 65%;
+
+            .reportBox {
+                .reportImg {
+                    width: 43%;
+                }
+                .reportText {
+                    position: relative;
+                    right: 8px;
+                }
+            }
+        }
+    }
+}
+
+
+// 작은 테블릿, 큰 모바일(가로) : 767px*
+@media (max-width:767px){
+    .sectionCon  {
+        .detail {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .mainImg {
+                position: relative;
+                width: 450px;
+                height: 440px;
+                left: 46%;
+            }
+        }
+        .infoContainer {
+            position: relative;
+            bottom: 100px;
+            right: 21%;
+
+            .name {
+                font-size: 2rem;
+            }
+            .delSize{
+                font-size: 1.7rem;
+                
+            }
+            .spanSize {
+                position: relative;
+                left: -0px;
+                font-size: 1.7rem;
+                padding: 0;
+            }
+            .asideMove .secondName {
+                margin-bottom: 18px;
+            }
+            .size {
+                position: relative;
+                right: 4px;
+            }
+            .cartBtn {
+                position: relative;
+                top: 50px;
+                height: 42px;
+            }
+        }
+    }
+    // 상세정보 , 리뷰, Q&A
+    .list{
+        gap: 200px;
+        .information {
+            &::after {
+                position: absolute;
+                left: -37px;
+                width: 220%;
+            }
+        }
+        .review {
+            &::after {
+                position: absolute;
+                left: -55px;
+                width: 150px;
+            }
+        }
+        .question {
+            &::after {
+                position: absolute;
+                left: -52px;
+                width: 145px;
+            }
+        }
+    }
+    // 상세정보 시작
+    .mainCon{
+        .lubberCon{
+            .lubberImg {
+                width: 35%;
+            }
+        }
+        .latexPre {
+            .girl {
+                width: 55%;
+            }
+        }
+        .customerCon {
+            .customer {
+                font-size: 2.5rem;
+            }
+            .boxWrap {
+                gap: 30px;
+
+                .boxCon{
+                    .bottomBox {
+                        padding: 50px 10px 50px 10px;
+                    }
+                }
+            }
+        }
+        .imageBox {
+            width: 75%;
+
+            .girlTwo {
+                width: 80%;
+            }
+            .colCon {
+                position: relative;
+                right: 1px;
+            }
+            .boxColumnTwo {
+                position: relative;
+                top: 40px;
+            }
+        }
+        .endSection{
+            .hTwo {
+                font-size: 2.5rem;
+            }
+            .latexImg {
+                width: 58%;
+                margin-bottom: 100px;
+            }
+        }
+        // 인체적용시험 css
+        .reportCon {
+            width: 80%;
+
+            .reportBox {
+                .reportImg {
+                    width: 40%;
+                }
+                .reportText {
+                    position: relative;
+                    right: 5px;
+                }
+            }
+        }
+    }
+}
+
+// 아이폰 12 반응형
+@media (max-width: 390px) {
+    .sectionCon  {
+        .detail {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .mainImg {
+                position: relative;
+                width: 350px;
+                height: 340px;
+                left: 58%;
+            }
+        }
+        .infoContainer {
+            position: relative;
+            bottom: 70px;
+            right: 90px;
+
+            .name {
+                font-size: 1.8rem;
+            }
+            .delSize{
+                font-size: 1.7rem;
+                
+            }
+            .spanSize {
+                position: relative;
+                left: -0px;
+                font-size: 1.7rem;
+                padding: 0;
+            }
+            .asideMove {
+                margin-top: 3px;
+
+                .size {
+                    position: relative;
+                    right: 4px;
+                    font-size: 1.4rem;
+                }
+            }
+            .secondName {
+                margin-bottom: 18px;
+            }
+            .cartBtn {
+                position: relative;
+                top: 50px;
+                height: 42px;
+            }
+        }
+    }
+    // 상세정보 , 리뷰, Q&A
+    .list{
+        gap: 75px;
+        .information {
+            font-size: 1.5rem;
+            &::after {
+                position: absolute;
+                left: -18px;
+                width: 100px;
+            }
+        }
+        .review {
+            font-size: 1.5rem;
+            &::after {
+                position: absolute;
+                left: -34px;
+                width: 105px;
+            }
+        }
+        .question {
+            font-size: 1.5rem;
+            &::after {
+                position: absolute;
+                left: -32px;
+                width: 100px;
+            }
+        }
+    }
+    // 상세정보 시작
+    .mainCon{
+        .box {
+            width: 115px;
+        }
+        .lubberCon{
+            .lubberImg {
+                width: 50%;
+            }
+        }
+        .latexPre {
+            text-align: center;
+
+            .latexF{
+                font-size: 2.4rem;
+            }
+
+            .textOne {
+                font-size: 1.5rem;
+                word-break: keep-all;
+                letter-spacing: -0.7px;
+            }
+            .textTwo {
+                font-size: 1.5rem;
+                word-break: keep-all;
+                letter-spacing: -0.7px;
+            }
+            .textThree {
+                font-size: 1.5rem;
+                word-break: keep-all;
+                letter-spacing: -0.7px;
+            }
+            .textFour {
+                font-size: 1.5rem;
+                margin-top: 15px;
+                word-break: keep-all;
+            }
+            .girl {
+                width: 85%;
+            }
+        }
+        .customerCon {
+            .customer {
+                font-size: 2.3rem;
+            }
+            .boxWrap {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 30px;
+
+                .boxCon{
+                    width: 65%;
+                    
+                    .topBox {
+                        font-size: 1.4rem;
+                    }
+
+                    .bottomBox {
+                        font-size: 1.3rem;
+                        padding: 50px 8px 50px 8px;
+                    }
+                }
+            }
+        }
+        .imageBox {
+            position: relative;
+            width: 75%;
+
+            .girlTwo {
+                position: relative;
+                top: 2px;
+                left: 13px;
+                opacity: 0.4;
+                width: 92%;
+            }
+            .colCon {
+                position: absolute;
+                right: 28px;
+            }
+            .boxColumn {
+                .top {
+                    width: 70%;
+                }
+                .bottom {
+                    font-size: 1.3rem;
+                }
+            }
+            .boxColumnTwo {
+                position: relative;
+                top: 40px;
+
+                .topTwo {
+                    width: 40%;
+                }
+                .bottomTwo {
+                    .bottomText {
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+        .endSection{
+            .hTwo {
+                font-size: 2.2rem;
+            }
+            .latexImg {
+                width: 80%;
+                margin-bottom: 100px;
+            }
+        }
+        // 인체적용시험 css
+        .reportCon {
+            width: 94%;
+
+            .reportBox {
+                .reportImg {
+                    position: relative;
+                    right: 39px;
+                    width: 40%;
+                }
+                .reportText {
+                    position: relative;
+                    right: 21%;
+                    font-size: 1.5rem;
+                    line-height: 1.5;
+                    white-space: nowrap;
+                    
+                }
+            }
+        }
+    }
+}
