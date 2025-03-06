@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lunacasa/static/css/main.2eb04daf.css",
-    "main.js": "/lunacasa/static/js/main.b72a7cec.js",
+    "main.css": "/lunacasa/static/css/main.1341973a.css",
+    "main.js": "/lunacasa/static/js/main.09034350.js",
     "static/js/488.b7d972d6.chunk.js": "/lunacasa/static/js/488.b7d972d6.chunk.js",
     "static/media/LowFloorBed.jpg": "/lunacasa/static/media/LowFloorBed.a345fd883fbde3de4a82.jpg",
     "static/media/PremiumMemoryFoamBed.jpg": "/lunacasa/static/media/PremiumMemoryFoamBed.cd41a84dd1297cf93206.jpg",
@@ -81,12 +81,12 @@
     "static/media/BlackLogin.svg": "/lunacasa/static/media/BlackLogin.e104c16bea705393ffa12385c9406db8.svg",
     "static/media/BlackUserPlus.svg": "/lunacasa/static/media/BlackUserPlus.df97ac1ff832f1492cb6eb632280fbc0.svg",
     "static/media/MenuHamburger.svg": "/lunacasa/static/media/MenuHamburger.8c6840ddbd374841bfce9681517cf642.svg",
-    "main.2eb04daf.css.map": "/lunacasa/static/css/main.2eb04daf.css.map",
-    "main.b72a7cec.js.map": "/lunacasa/static/js/main.b72a7cec.js.map",
+    "main.1341973a.css.map": "/lunacasa/static/css/main.1341973a.css.map",
+    "main.09034350.js.map": "/lunacasa/static/js/main.09034350.js.map",
     "488.b7d972d6.chunk.js.map": "/lunacasa/static/js/488.b7d972d6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2eb04daf.css",
-    "static/js/main.b72a7cec.js"
+    "static/css/main.1341973a.css",
+    "static/js/main.09034350.js"
   ]
 }
