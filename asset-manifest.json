@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lunacasa/static/css/main.1341973a.css",
-    "main.js": "/lunacasa/static/js/main.09034350.js",
+    "main.css": "/lunacasa/static/css/main.6bff0283.css",
+    "main.js": "/lunacasa/static/js/main.989c55a4.js",
     "static/js/488.b7d972d6.chunk.js": "/lunacasa/static/js/488.b7d972d6.chunk.js",
     "static/media/LowFloorBed.jpg": "/lunacasa/static/media/LowFloorBed.a345fd883fbde3de4a82.jpg",
     "static/media/PremiumMemoryFoamBed.jpg": "/lunacasa/static/media/PremiumMemoryFoamBed.cd41a84dd1297cf93206.jpg",
@@ -63,11 +63,11 @@
     "static/media/LUNACASA.png": "/lunacasa/static/media/LUNACASA.2a33905d605013ac5c08.png",
     "static/media/ChairThree.jpg": "/lunacasa/static/media/ChairThree.774db92f63a681312d0d.jpg",
     "static/media/Clean.png": "/lunacasa/static/media/Clean.ed60d8a564ce26cf9adb.png",
-    "static/media/Banner-2.jpg": "/lunacasa/static/media/Banner-2.c3a4ddbdc7dfee3bc222.jpg",
     "static/media/Spring.jpg": "/lunacasa/static/media/Spring.fe9557815b8761fdeac2.jpg",
     "static/media/KakaoTalk_logo.svg": "/lunacasa/static/media/KakaoTalk_logo.15ff76a2faf7ddec8ba86c4336174976.svg",
     "static/media/Culling.png": "/lunacasa/static/media/Culling.e4bb4baf794bbfad4317.png",
     "static/media/Arrow.png": "/lunacasa/static/media/Arrow.c328e2405ff7e8e59074.png",
+    "static/media/Banner-2.webp": "/lunacasa/static/media/Banner-2.d933df3bba25494f02c6.webp",
     "static/media/Hammer.png": "/lunacasa/static/media/Hammer.8784590259ab50d06e2e.png",
     "static/media/Robust.png": "/lunacasa/static/media/Robust.7139f1289896b5087a5c.png",
     "static/media/slick.svg": "/lunacasa/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -75,18 +75,18 @@
     "static/media/slick.ttf": "/lunacasa/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/Instagram.svg": "/lunacasa/static/media/Instagram.776d31abcdd14579466f3eba5df92da0.svg",
     "static/media/slick.woff": "/lunacasa/static/media/slick.295183786cd8a1389865.woff",
-    "static/media/CartPage.svg": "/lunacasa/static/media/CartPage.149a4887437f26bcfe3f0833ca8e530c.svg",
     "index.html": "/lunacasa/index.html",
+    "static/media/CartPage.svg": "/lunacasa/static/media/CartPage.149a4887437f26bcfe3f0833ca8e530c.svg",
     "static/media/BlackCart.svg": "/lunacasa/static/media/BlackCart.021e1809990af9e13d877d09f44f85da.svg",
     "static/media/BlackLogin.svg": "/lunacasa/static/media/BlackLogin.e104c16bea705393ffa12385c9406db8.svg",
     "static/media/BlackUserPlus.svg": "/lunacasa/static/media/BlackUserPlus.df97ac1ff832f1492cb6eb632280fbc0.svg",
     "static/media/MenuHamburger.svg": "/lunacasa/static/media/MenuHamburger.8c6840ddbd374841bfce9681517cf642.svg",
-    "main.1341973a.css.map": "/lunacasa/static/css/main.1341973a.css.map",
-    "main.09034350.js.map": "/lunacasa/static/js/main.09034350.js.map",
+    "main.6bff0283.css.map": "/lunacasa/static/css/main.6bff0283.css.map",
+    "main.989c55a4.js.map": "/lunacasa/static/js/main.989c55a4.js.map",
     "488.b7d972d6.chunk.js.map": "/lunacasa/static/js/488.b7d972d6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1341973a.css",
-    "static/js/main.09034350.js"
+    "static/css/main.6bff0283.css",
+    "static/js/main.989c55a4.js"
   ]
 }
