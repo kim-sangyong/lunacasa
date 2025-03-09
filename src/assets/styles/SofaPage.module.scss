@@ -16,13 +16,6 @@
             height: 300px; 
             object-fit: cover; 
             cursor: pointer;
-            transition-property: all;
-            transition-duration: 0.5s; 
-            transition-timing-function: ease-in-out; 
-        }
-        & img:hover {
-            box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.35);
-            transform: translateY(-5px);
         }
     }
     .piceContainer {
@@ -31,16 +24,15 @@
         gap: 5px;   
     }
     .priceDel {
+        color: #595959;
         font-size: 1.6rem;
     }
     .sale {
         position: relative;
         left: 23px;
-        font-size: 1.6rem;
         white-space: pre; 
 
         & span {
-            color: red;
             font-size: 1.6rem;
         }
     }
@@ -102,10 +94,9 @@
             gap: 5px;   
         }
         .priceDel {
-            color: black;
             font-size: 1.4rem;
         }
-        
+
         .sale {
             position: relative;
             left: 20px;
@@ -113,7 +104,6 @@
             white-space: pre; 
         
             & span {
-                color: red;
                 font-size: 1.4rem;
             }
         }

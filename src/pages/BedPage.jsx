@@ -10,9 +10,15 @@ function BedPage(){
     return(
         <>
         <Helmet>
-                <title>침대</title>
-                <meta name="description" content="루나카사 - LUNACASA에서 고급 침대를 만나보세요 절찬 판매중인 프리미엄 침대."/>
-                <meta name="keywords" content="가구, 인테리어, 침대, 소파." />
+                <title>침대 - 루나카사</title>
+                <meta name="description" content="루나카사 - LUNACASA에서 고급 침대를 만나보세요 절찬 판매중인 프리미엄 침대 | 
+                 모던한 가구, 저럼한 가구, 인테리어 가구, 홈 인테리어 가구"/>
+                <meta name="keywords" content="루나카사 가구, 루나카사 인테리어, 루나카사 침대, 루나카사 침대 인테리어,
+                침대 추천, 인테리어, 앤틱한 침대, 편한 침대, 저렴한 침대, 모던 가구, 저렴한 가구, 
+                넓은 침대, 1인용 침대, 편한 침대, 푹신한 침대, 라텍스 침대, 패브릭 침대, 디자인 침대, 
+                외국 느낌 침대, 북유럽 침대, 이태리 침대, 북유럽 디자인, 이태리 디자인, 외국 느낌 디자인, 가구 쇼핑몰, 
+                성인용 침대, 고등학생용 침대, 어린이용 침대, 루나카사 침대, 루나카사 저렴한 침대, 루나카사 합리적인 침대,
+                루나카사 디자인, 루나카사 앤틱함, 루나카사 가구 쇼핑몰, 루나카사 쇼핑몰" />
                 {/* <meta http-equiv="Copyright" content="LUNACASA" /> 푸터에 추가함 */}
                 <meta name="robots" content="index, follow" /> {/* 아직 검색결과 표시X 페이지 링크 따라가기 X 플젝 다 끝나고 변경 */}
 
@@ -26,7 +32,7 @@ function BedPage(){
                 {/* 소셜 미디어에서 공유될 때 표시되는 이미지입니다 */}
                 {/* <meta meta property="og:image" content="https://example.com/image.jpg"/> */}
                 {/* 공유할 URL을 설정합니다. */}
-                {/* <meta meta property="og:url" content="https://example.com"/> */}
+                <meta meta property="og:url" content="https://kim-sangyong.github.io/lunacasa/bed"/>
              </Helmet>
         <section className={styles.container} aria-label="침대 상품 목록">
             <article className={styles.product}>

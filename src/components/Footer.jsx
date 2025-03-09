@@ -15,11 +15,11 @@ function Footer() {
                     KG아이티뱅크수료
                 </p>
                 <p className={styles.infoText}>
-                    디자인: <span className={styles.infoSpan}>김상용</span>
-                    퍼블리싱: <span className={styles.infoSpan}>김상용</span>
-                    지역: <span className={styles.infoSpan}>남양주시</span>
+                    대표  : <span className={styles.infoSpan}>루나카사</span>
+                    상호: <span className={styles.infoSpan}>루나카사</span>
+                    Fax: <span className={styles.infoSpan}>000 - 0000 - 0000</span>
                     <span className={styles.emailWrap}>
-                        이메일: <span className={styles.infoSpan}>sdragon0416@gmail.com</span>
+                    Day Off: <span className={styles.infoSpan}>SAT.SUN.HOLIDAY</span>
                         {/* 390px일때 개행하기위해 부모 span 추가 */}
                     </span>
                 </p>
@@ -32,7 +32,7 @@ function Footer() {
             </div>
             <div className={styles.warning}>
                 <p>※ 개인 프로젝트 목적의 사이트이므로 실제 사용이 불가합니다.</p>
-                <p className={styles.two}>© 2025 LUNACASA. All rights reserved.</p>
+                <p className={styles.two}>&copy; 2025 LUNACASA. All rights reserved.</p>
             </div>
         </footer>
     );

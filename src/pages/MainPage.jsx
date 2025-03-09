@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import FirstMainBanner from "../assets/images/MainPage/Banner-1.jpg";
-import SecondBanner from "../assets/images/MainPage/Banner-2.jpg";
+import SecondBanner from "../assets/images/MainPage/Banner-2.webp";
 import ThirdBanner from "../assets/images/MainPage/Banner-3.jpg";
 import ChairOne from "../assets/images/MainPage/ChairOne.jpg";
 import ChairTwo from "../assets/images/MainPage/ChairTwo.jpg";
@@ -29,18 +29,7 @@ import PrevArrow from "../components/PrevArrow.jsx";
 
 
 function MainPage(){
-    
-    //react-slick 세팅
-    // const settings = {
-    //     className: "center",
-    //     centerMode: true,
-    //     infinite: true,
-    //     centerPadding: "100px",
-    //     slidesToShow: 1.5,
-    //     speed: 1000,
-    //     nextArrow: <NextArrow />,
-    //     prevArrow: <PrevArrow />,
-    //   };
+
     const settings = {
         arrows: true,
         dots: false,
@@ -57,8 +46,15 @@ function MainPage(){
         <>
             <Helmet>
                 <title>루나카사 - LUNACASA</title>
-                <meta name="description" content="루나카사 - LUNACASA에서 감각적인 고급 가구를 만나보세요. 품격 있는 인테리어를 위한 최고의 선택."/>
-                <meta name="keywords" content="가구, 인테리어, 침대, 소파." />
+                <meta name="description" content="루나카사 | LUNACASA에서 감각적인 고급 가구를 만나보세요. 품격 있는 인테리어를 위한 최고의 선택 | 
+                모던한 가구, 저럼한 가구, 인테리어 가구, 홈 인테리어 가구, 홈데코 가구, 루나카사 가구, 가구 사이트, 가구 쇼핑몰, 가구, 
+                가구 추천, 좋은 가구, 합리적인 가구"/>
+                <meta name="keywords" content="루나카사 가구, 루나카사 인테리어, 루나카사 침대, 루나카사 소파.
+                루나카사 홈인테리어, 루나카사 업소용 가구, 루나카사 책상 의자, 루나카사 빈티지 가구, 루나카사 앤틱 가구,
+                저렴한 가구, 모던 가구, 북유럽 가구, 이태리 가구, 의자, 암체어, 원목의자, 야외용 가구, 사무용 의자,
+                이쁜가구, 예쁜가구, 인테리어, 인테리어 디자인, 북유럽 인테리어, 이태리 인테리어, 유명 인테리어, 공간, 공간활용,
+                LUNACASA가구, LUNACASA 인테리어, LUNACASA 디자인 의자, LUNACASA 디자인 소파, LUNACASA 디자인 침대, 
+                LUNACASA, 디자인 홈 가구, LUNACASA 디자인 공간 가구, LUNACASA 빈티지 가구" />
                 {/* <meta http-equiv="Copyright" content="LUNACASA" /> 푸터에 추가함 */}
                 <meta name="robots" content="index, follow" /> {/* 아직 검색결과 표시X 페이지 링크 따라가기 X 플젝 다 끝나고 변경 */}
 
@@ -68,11 +64,11 @@ function MainPage(){
                 {/* 소셜 미디어에서 공유될 때 표시되는 제목입니다. */}
                 <meta property="og:title" content="LUNACASA - 고급 가구." />
                 {/* 소셜 미디어에서 공유될 때 표시되는 설명입니다. */}
-                <meta property="og:description" content="감각적인 고급 가구를 만나보세요. 품격 있는 인테리어를 위한 최고의 선택."/>
+                <meta property="og:description" content="루나카사의 감각적인 고급 가구를 만나보세요. 품격 있는 인테리어를 위한 최고의 선택."/>
                 {/* 소셜 미디어에서 공유될 때 표시되는 이미지입니다 */}
                 {/* <meta meta property="og:image" content="https://example.com/image.jpg"/> */}
                 {/* 공유할 URL을 설정합니다. */}
-                {/* <meta meta property="og:url" content="https://example.com"/> */}
+                <meta meta property="og:url" content="https://kim-sangyong.github.io/lunacasa"/>
             </Helmet>
         <main className={styles.container}>
             {/* 슬라이더 */}

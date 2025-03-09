@@ -9,9 +9,14 @@ function SofaPage(){
     return(
         <>
         <Helmet>
-                <title>소파</title>
-                 <meta name="description" content="루나카사 - LUNACASA에서 고급 소파를 만나보세요. 고급의 패브릭 소파 판매."/>
-                <meta name="keywords" content="가구, 인테리어, 침대, 소파." />
+                <title>소파 - 루나카사</title>
+                 <meta name="description" content="루나카사 - LUNACASA에서 고급 소파를 만나보세요. 고급의 패브릭 소파 판매 | 
+                 모던한 가구, 저럼한 가구, 인테리어 가구, 홈 인테리어 가구 "/>
+                <meta name="keywords" content="루나카사 가구, 루나카사 인테리어, 루나카사 침대, 루나카사 소파, 
+                북유럽 소파, 이태리 소파, 유럽 소파, 편한 소파, 디테일 소파, 소파 디자인, 앤틱한 소파, 패브릭 소파,
+                천연 솜 소파, 다인용 소파, 3인용 소파, 저렴한 소파, 합리적인 소파, 쇼핑몰, 소파 쇼핑몰, 가구 쇼핑몰, 
+                인테리어 소파, 홈 가구 소파, 공간 활용 소파. 루나카사 소파, 루나카사 저렴한 소파, 루나카사 합리적인 소파,
+                루나카사 디자인, 루나카사 앤틱함, 루나카사 가구 쇼핑몰, 루나카사 쇼핑몰" />
                 {/* <meta http-equiv="Copyright" content="LUNACASA" /> 푸터에 추가함 */}
                 <meta name="robots" content="index, follow" /> {/* 아직 검색결과 표시X 페이지 링크 따라가기 X 플젝 다 끝나고 변경 */}
         
@@ -25,12 +30,12 @@ function SofaPage(){
                 {/* 소셜 미디어에서 공유될 때 표시되는 이미지입니다 */}
                 {/* <meta meta property="og:image" content="https://example.com/image.jpg"/> */}
                 {/* 공유할 URL을 설정합니다. */}
-                {/* <meta meta property="og:url" content="https://example.com"/> */}
+                <meta meta property="og:url" content="https://kim-sangyong.github.io/lunacasa/sofa"/>
         </Helmet>
             <section className={styles.container} aria-label="소파 상품 목록">
                 <article className={styles.product}>
                     <Link to="/fabric-sofa-detail-page">
-                        <img src={SofaData[0].img} alt="3인 패브릭 소파"/>
+                        <img src={SofaData[0].img} alt="3인 패브릭 소파" loading="lazy"/>
                     </Link>
                     <h2>{SofaData[0].name}</h2>
                         <div className={styles.priceContainer}>
@@ -44,7 +49,7 @@ function SofaPage(){
     
                 <article className={styles.product}>
                     <Link to="/cow-leather-sofa-detail-page">
-                        <img src={SofaData[1].img} alt="3인 소가죽 소파"/>
+                        <img src={SofaData[1].img} alt="3인 소가죽 소파" loading="lazy"/>
                     </Link>
                     <h2>{SofaData[1].name}</h2>
                         <div className={styles.priceContainer}>
@@ -58,7 +63,7 @@ function SofaPage(){
                     
                 <article className={styles.product}>
                     <Link to="/micro-fiber-sofa-detail-page">
-                        <img src={SofaData[2].img} alt="2인 극세사 소파"/>
+                        <img src={SofaData[2].img} alt="2인 극세사 소파" loading="lazy"/>
                     </Link>
                     <h2>{SofaData[2].name}</h2>
                         <div className={styles.priceContainer}>
@@ -72,7 +77,7 @@ function SofaPage(){
     
                 <article className={styles.product}>
                     <Link to="/round-sofa-detail-page">
-                        <img src={SofaData[3].img} alt="다인용 라운드 소파"/>
+                        <img src={SofaData[3].img} alt="다인용 라운드 소파" loading="lazy"/>
                     </Link>
                     <h2>{SofaData[3].name}</h2>
                         <div className={styles.priceContainer}>
@@ -86,7 +91,7 @@ function SofaPage(){
     
                 <article className={styles.product}>
                     <Link to="/italian-vintage-sofa-detail-page">
-                        <img src={SofaData[4].img} alt="이태리 빈티지 소파"/>
+                        <img src={SofaData[4].img} alt="이태리 빈티지 소파" loading="lazy"/>
                     </Link>
                     <h2>{SofaData[4].name}</h2>
                         <div className={styles.priceContainer}>
@@ -100,7 +105,7 @@ function SofaPage(){
     
                 <article className={styles.product}>
                     <Link to="/premium-vintage-sofa-detail-page">
-                        <img src={SofaData[5].img} alt="프리미엄 빈티지 소파"/>
+                        <img src={SofaData[5].img} alt="프리미엄 빈티지 소파" loading="lazy"/>
                     </Link>
                     <h2>{SofaData[5].name}</h2>
                         <div className={styles.priceContainer}>

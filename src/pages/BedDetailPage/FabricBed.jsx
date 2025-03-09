@@ -11,9 +11,12 @@ function FabricBed() {
     return(
         <>
             <Helmet>
-                <title>패브릭 침대</title>
-                    <meta name="description" content="LUNACASA에서 직접 만든 패브릭 침대를 만나보세요."/>
-                    <meta name="keywords" content="가구, 인테리어, 패브릭 침대." />
+                <title>패브릭 침대 - 루나카사</title>
+                    <meta name="description" content="루나카사에서 직접 만든 패브릭 침대를 만나보세요 | 모던한 가구, 저럼한 가구,
+                    인테리어 가구, 홈 인테리어 가구"/>
+                    <meta name="keywords" content="루나카사 가구, 루나카사 인테리어, 루나카사 패브릭 침대, 
+                    패브릭 침대, 패브릭 침대 추천, 침대 추천, 저렴한 침대, 인테리어 침대, 앤틱한 침대, 유럽 침대,
+                    오래쓰는 침대, 푹신한 침대, 편한 침대, 합리적인 침대" />
                     {/* <meta http-equiv="Copyright" content="LUNACASA" /> 푸터에 추가함 */}
                     <meta name="robots" content="index, follow" /> {/* 아직 검색결과 표시X 페이지 링크 따라가기 X 플젝 다 끝나고 변경 */}
                             
@@ -27,7 +30,7 @@ function FabricBed() {
                     {/* 소셜 미디어에서 공유될 때 표시되는 이미지입니다 */}
                     {/* <meta meta property="og:image" content="https://example.com/image.jpg"/> */}
                     {/* 공유할 URL을 설정합니다. */}
-                    {/* <meta meta property="og:url" content="https://example.com"/> */}
+                    <meta meta property="og:url" content="https://kim-sangyong.github.io/lunacasa/fabric-bed-detail-page"/>
             </Helmet>
 
             <section aria-label="패브릭 침대 구매 정보" className={styles.sectionCon}>

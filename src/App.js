@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import './App.css';
 import MainPage from './pages/MainPage';
 import BedPage from './pages/BedPage';
@@ -27,24 +27,15 @@ import PremiumSofa from "./pages/SofaDetailPage/PremiumSofa.jsx";
 
 
   function App() {
-    const location = useLocation(); // 현재 경로 가져오기
     const { isModalOpen, openModal, closeModal, isLoginModalOpen, openLoginModal, closeLoginModal } = useModal();  // 모달 상태 관리
   
-    const isMainPage = location.pathname === "/";
   
     return (
-      <>
-        {/* 메인 페이지 여부에 따라 다른 헤더 렌더링 */}
-        {/* {isMainPage ? (
-          <DefaultHeader openModal={openModal} openLoginModal={openLoginModal} />
-        ) : (
-          <Header openModal={openModal} openLoginModal={openLoginModal} />
-        )}
-   */}
+      <BrowserRouter basename="/lunacasa">
         {/* 회원가입 및 로그인 모달 */}
         {isModalOpen && <SignupModal closeModal={closeModal} />}
         {isLoginModalOpen && <LoginModal closeLoginModal={closeLoginModal} />}
-  
+        
         {/* 라우트 설정 */}
         <Header openModal={openModal} openLoginModal={openLoginModal} />
         <Routes>
@@ -71,16 +62,9 @@ import PremiumSofa from "./pages/SofaDetailPage/PremiumSofa.jsx";
           <Route path="/premium-vintage-sofa-detail-page" element={<PremiumSofa />}/>
         </Routes>
         <Footer />
-      </>
-    );
-  }
-
-  function AppWithRouter() {
-    return (
-      <BrowserRouter>
-        <App />
       </BrowserRouter>
     );
   }
 
-  export default AppWithRouter;
+
+  export default App;

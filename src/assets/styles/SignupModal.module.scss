@@ -72,12 +72,8 @@
             cursor: pointer;
             background: #fffefe;
             white-space: pre;
-            transition-property: all;
-            transition-duration: 0.3s; 
-            transition-timing-function: ease-in-out; 
         
             &:hover {
-                transform: translateY(-20%);
                 background-color: #424242;  
                 color: white;
                 border: none;

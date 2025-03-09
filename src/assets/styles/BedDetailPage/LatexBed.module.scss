@@ -39,13 +39,13 @@
         .delSize {
             font-size: $font-size-del;
             padding-bottom: 15px;
+            color: #595959;
         }
         .spanSize {
             position: relative;
             bottom: 10px;
             left: 2px;
             font-size: $font-size-del;
-            color: red;
             padding-bottom: 20px;
         }
         .asideMove {
@@ -72,7 +72,7 @@
                 .checkBoxMove {
                     margin-right: 15px;
                     cursor: pointer; /* 체크박스를 클릭할 수 있도록 */
-                    accent-color: black;
+                    accent-color: #000000;
                     width: 15px; /* 원하는 너비 설정 */
                     height: 15px; /* 원하는 높이 설정 */
                 }
@@ -91,12 +91,8 @@
         border-color: #000000;
         font-size: $font-size-comment;
         cursor: pointer;
-        transition-property: all;
-        transition-duration: 0.3s; /* 트랜지션 지속 시간 */
-        transition-timing-function: ease-in-out; /* 트랜지션 타이밍 함수 */
     
         &:hover {
-            transform: translateY(-20%);
             background-color: #424242;  /* 라이트 그레이 색상 */
             color: white;
             border: none;
@@ -119,13 +115,6 @@
         right: 18px;
         font-size: $font-size-text;
         cursor: pointer;
-        transition-property: all;
-        transition-duration: 0.3s; /* 트랜지션 지속 시간 */
-        transition-timing-function: ease-in-out; /* 트랜지션 타이밍 함수 */
-        
-        &:hover {
-            transform: translateY(-40%); /* 부모 요소의 호버 효과 */
-        }
     
         &::after {
             content: "";
@@ -141,13 +130,6 @@
         right: 18px;
         font-size: $font-size-text;
         cursor: pointer;
-        transition-property: all;
-        transition-duration: 0.3s; /* 트랜지션 지속 시간 */
-        transition-timing-function: ease-in-out; /* 트랜지션 타이밍 함수 */
-        
-        &:hover {
-            transform: translateY(-40%); /* 부모 요소의 호버 효과 */
-        }
     
         &::after {
             content: "";
@@ -162,13 +144,6 @@
         position: relative;
         font-size: $font-size-text;
         cursor: pointer;
-        transition-property: all;
-        transition-duration: 0.3s; /* 트랜지션 지속 시간 */
-        transition-timing-function: ease-in-out; /* 트랜지션 타이밍 함수 */
-        
-        &:hover {
-            transform: translateY(-40%); /* 부모 요소의 호버 효과 */
-        }
     
         &::after {
             content: "";

@@ -37,20 +37,22 @@ function Header({ openModal, openLoginModal }){
 
             {/* 메뉴가 열리면 보이도록 */}
             {isMenuOpen && (
-                <nav aria-label="메뉴 버튼"
+                <nav
+                    aria-label="메뉴 버튼"
+                    role="navigation"
                     className={`${styles.sideMenu} ${isMenuOpen ? styles.open : ""}`}
                     onMouseEnter={handleMouseEnter}  // 메뉴 영역에 마우스가 들어가면
                     onMouseLeave={handleMouseLeave}  // 메뉴 영역에서 마우스가 나가면
                 >
                     <ul className={styles.navSel}>
-                        <li><Link to="/bedPage">침대</Link></li>
-                        <li><Link to="/sofaPage">소파</Link></li>
+                        <li><Link to="/bed">침대</Link></li>
+                        <li><Link to="/sofa">소파</Link></li>
                     </ul>
                 </nav>
             )}
 
             <Link to="/" className={styles.homeBtn}>
-                <img src={Lunacasa} alt="홈페이지 로고 버튼" role="button" className={styles.mainLogo} />
+                <img src={Lunacasa} alt="홈으로 이동 버튼" role="button" className={styles.mainLogo} />
             </Link>
         
             {/* 검색 폼 */}

@@ -16,9 +16,11 @@ function LowBed() {
     return(
         <>
         <Helmet>
-            <title>저상형 침대</title>
-                <meta name="description" content="자취인들의 편한 저상형 침대를 만나보세요."/>
-                <meta name="keywords" content="가구, 인테리어, 저상형 침대." />
+            <title>저상형 침대 - 루나카사</title>
+                <meta name="description" content="자취인들의 편한 루나카사의 저상형 침대를 만나보세요."/>
+                <meta name="keywords" content="루나카사 가구, 루나카사 인테리어, 루나카사 저상형 침대, LUNACASA 가구, 
+                LUNACASA 인테리어, LUNACASA 저상형 침대, 유럽 가구, 이태리 가구, 편안한 가구, 합리적인 가격, 
+                저렴한 가격, 유행, 앤틱한 침대, 오래쓰는 침대, 침대 추천, 가구 추천, 홈 데코, 홈 가구, 홈 인테리어, 지인 추천" />
                 {/* <meta http-equiv="Copyright" content="LUNACASA" /> 푸터에 추가함 */}
                 <meta name="robots" content="index, follow" /> {/* 아직 검색결과 표시X 페이지 링크 따라가기 X 플젝 다 끝나고 변경 */}
                         
@@ -32,7 +34,7 @@ function LowBed() {
                 {/* 소셜 미디어에서 공유될 때 표시되는 이미지입니다 */}
                 {/* <meta meta property="og:image" content="https://example.com/image.jpg"/> */}
                 {/* 공유할 URL을 설정합니다. */}
-                {/* <meta meta property="og:url" content="https://example.com"/> */}
+                <meta meta property="og:url" content="https://kim-sangyong.github.io/lunacasa/low-floor-bed-detail-page"/>
         </Helmet>
 
         <section aria-label="저상형 침대 구매 정보" className={styles.sectionCon}>

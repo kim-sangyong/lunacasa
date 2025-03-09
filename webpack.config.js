@@ -2,22 +2,56 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.scss$/,  // .scss 파일을 처리
+        test: /\.module\.scss$/,
         use: [
-          'style-loader',    // CSS를 DOM에 삽입
-          'css-loader',      // CSS를 로드하고 해석
-          'postcss-loader',  // PostCSS와 Autoprefixer 적용
-          'sass-loader'      // SCSS를 CSS로 변환
-        ]
+          "style-loader",
+          {
+            loader: "css-loader",
+            options: {
+              modules: {
+                localIdentName: "[name]__[local]--[hash:base64:5]",
+              },
+              importLoaders: 2,
+            },
+          },
+          {
+            loader: "postcss-loader",
+            options: {
+              postcssOptions: {
+                plugins: [
+                  ["autoprefixer"]
+                ],
+              },
+            },
+          },
+          "sass-loader",
+        ],
       },
       {
-        test: /\.css$/,  // .css 파일을 처리
+        test: /\.(scss|css)$/,
+        exclude: /\.module\.scss$/,
         use: [
-          'style-loader',    // CSS를 DOM에 삽입
-          'css-loader',      // CSS를 로드하고 해석
-          'postcss-loader'   // PostCSS와 Autoprefixer 적용
-        ]
-      }
-    ]
-  }
-}
+          "style-loader",
+          {
+            loader: "css-loader",
+            options: {
+              importLoaders: 2,
+            },
+          },
+          {
+            loader: "postcss-loader",
+            options: {
+              postcssOptions: {
+                plugins: [
+                  ["autoprefixer"]
+                ],
+              },
+            },
+          },
+          "sass-loader",
+        ],
+      },
+    ],
+  },
+  // ... 기타 웹팩 설정
+};
