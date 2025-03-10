@@ -1,4 +1,4 @@
-# 루나카사 - LUNACASA 가구 쇼핑몰
+# 🛏️ 루나카사 - LUNACASA 가구 쇼핑몰
 <img src="https://github.com/kim-sangyong/test/raw/main/ReadMe.png" alt="루나카사 가구 쇼핑몰 이미지" width="1000"/>  
 
 ### 📎 배포 URL : https://kim-sangyong.github.io/lunacasa
