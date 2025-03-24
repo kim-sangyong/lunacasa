@@ -148,7 +148,6 @@ React, Figma, Photoshop, SCSS, 그리고 다양한 라이브러리들을 처음 
 앞으로는 JavaScript를 더 많이 활용하여 정적 기능뿐만 아니라 동적 기능도 추가하며 프로젝트를 더욱 발전시켜 나갈 예정이고, 더 많은 프로젝트를 경험해 보려고 합니다.
 
 - 2025-03-24 최종 후기
-<br />
 이번 프로젝트를 통해 react-helmet-async에 대해 잘못 이해하고 있었다는 것을 깨달았습니다. <br />
 각 컴포넌트에 메타 태그를 적용했다고 해서 SEO 최적화가 되는 것은 아니었습니다.
 **CRA (Create React App)**는 CSR (Client Side Rendering) 방식을 사용하기 때문에 <br />
