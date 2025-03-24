@@ -149,7 +149,7 @@ React, Figma, Photoshop, SCSS, 그리고 다양한 라이브러리들을 처음 
 
 ## 2025-03-24 최종 후기<br />
 <br />
- - 이번 프로젝트를 통해 react-helmet-async에 대해 잘못 이해하고 있었다는 것을 깨달았습니다. <br />
+이번 프로젝트를 통해 react-helmet-async에 대해 잘못 이해하고 있었다는 것을 깨달았습니다. <br />
 각 컴포넌트에 메타 태그를 적용했다고 해서 SEO 최적화가 되는 것은 아니었습니다. <br />
 **CRA (Create React App)**는 CSR (Client Side Rendering) 방식을 사용하기 때문에 <br />
 하나의 index.html만 크롤링되어 메타 태그가 제대로 노출되지 않는 문제가 있었습니다. <br />
