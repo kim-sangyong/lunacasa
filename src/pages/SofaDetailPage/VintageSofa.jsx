@@ -23,7 +23,7 @@ function VintageSofa() {
                 홈 데코, 홈 가구, 홈 인테리어, 지인 추천" />
                 {/* <meta http-equiv="Copyright" content="LUNACASA" /> 푸터에 추가함 */}
                 <meta name="robots" content="index, follow" /> {/* 아직 검색결과 표시X 페이지 링크 따라가기 X 플젝 다 끝나고 변경 */}
-                                
+                                           
                 {/* 소셜 미디어(SNS) Open Graph (OG) 메타 태그 */}
                 {/* 스마트폰으로 가구 쇼핑몰을 공유할때 웹사이트라는걸 알려줌 */}
                 <meta property="og:type" content="website" />
