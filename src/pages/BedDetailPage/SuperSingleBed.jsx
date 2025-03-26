@@ -29,7 +29,7 @@ function SuperSingleBed() {
                 {/* 소셜 미디어에서 공유될 때 표시되는 이미지입니다 */}
                 {/* <meta meta property="og:image" content="https://example.com/image.jpg"/> */}
                 {/* 공유할 URL을 설정합니다. */}
-                <meta meta property="og:url" content="https://raw.githubusercontent.com/kim-sangyong/test/main/SuperSingBed.png"/>
+                <meta meta property="og:url" content="https://raw.githubusercontent.com/kim-sangyong/test/main/SuperSingBed.pn"/>
 
                 {/* 트위터 */}
                 <meta name="twitter:card" content="summary_large_image" />
