@@ -29,7 +29,13 @@ function SuperSingleBed() {
                 {/* 소셜 미디어에서 공유될 때 표시되는 이미지입니다 */}
                 {/* <meta meta property="og:image" content="https://example.com/image.jpg"/> */}
                 {/* 공유할 URL을 설정합니다. */}
-                <meta meta property="og:url" content="https://kim-sangyong.github.io/lunacasa/super-single-bed-detail-page"/>
+                <meta meta property="og:url" content="https://raw.githubusercontent.com/kim-sangyong/test/main/SuperSingBed.png"/>
+
+                {/* 트위터 */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="LUNACASA - 슈퍼 싱글 침대." />
+                <meta name="twitter:description" content="슈퍼 싱글 침대를 만나보세요. 획기적인 가격으로 제공합니다." />
+                <meta name="twitter:image" content="https://raw.githubusercontent.com/kim-sangyong/test/main/SuperSingBed.png" />
             </Helmet>
 
             <section aria-label="슈퍼 싱글 침대 구매 정보" className={styles.sectionCon}>

@@ -30,7 +30,13 @@ function SofaPage(){
                 {/* 소셜 미디어에서 공유될 때 표시되는 이미지입니다 */}
                 {/* <meta meta property="og:image" content="https://example.com/image.jpg"/> */}
                 {/* 공유할 URL을 설정합니다. */}
-                <meta meta property="og:url" content="https://kim-sangyong.github.io/lunacasa/sofa"/>
+                <meta meta property="og:url" content="https://raw.githubusercontent.com/kim-sangyong/test/main/PremiumVintageSofa.png"/>
+
+                {/* 트위터 */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="LUNACASA - 고급 소파." />
+                <meta name="twitter:description" content="감각적인 고급 소파를 만나보세요. LUNACASA의 프리미엄 소파." />
+                <meta name="twitter:image" content="https://raw.githubusercontent.com/kim-sangyong/test/main/PremiumVintageSofa.png" />
         </Helmet>
             <section className={styles.container} aria-label="소파 상품 목록">
                 <article className={styles.product}>

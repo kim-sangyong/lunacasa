@@ -68,7 +68,14 @@ function MainPage(){
                 {/* 소셜 미디어에서 공유될 때 표시되는 이미지입니다 */}
                 {/* <meta meta property="og:image" content="https://example.com/image.jpg"/> */}
                 {/* 공유할 URL을 설정합니다. */}
-                <meta meta property="og:url" content="https://kim-sangyong.github.io/lunacasa"/>
+                <meta meta property="og:url" content="https://raw.githubusercontent.com/kim-sangyong/test/main/Banner-1.png"/>
+
+                {/* 트위터 */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="LUNACASA - 고급 가구." />
+                <meta name="twitter:description" content="루나카사의 감각적인 고급 가구를 만나보세요. 품격 있는 인테리어를 위한 최고의 선택." />
+                <meta name="twitter:image" content="https://raw.githubusercontent.com/kim-sangyong/test/main/Banner-1.png" />
+            
             </Helmet>
         <main className={styles.container}>
             {/* 슬라이더 */}

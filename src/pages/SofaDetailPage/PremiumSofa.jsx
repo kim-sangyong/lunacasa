@@ -30,7 +30,13 @@ function PremiumSofa() {
                 {/* 소셜 미디어에서 공유될 때 표시되는 이미지입니다 */}
                 {/* <meta meta property="og:image" content="https://example.com/image.jpg"/> */}
                 {/* 공유할 URL을 설정합니다. */}
-                <meta meta property="og:url" content="https://kim-sangyong.github.io/lunacasa/premium-vintage-sofa-detail-page"/>
+                <meta meta property="og:url" content="https://raw.githubusercontent.com/kim-sangyong/test/main/PremiumVintageSofa.png"/>
+
+                {/* 트위터 */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="LUNACASA - 프리미엄 빈티지 소파." />
+                <meta name="twitter:description" content="LUNACASA가 준비한 프리미엄 빈티지 소파." />
+                <meta name="twitter:image" content="https://raw.githubusercontent.com/kim-sangyong/test/main/PremiumVintageSofa.png" />
             </Helmet>
 
             <section aria-label="프리미엄 빈티지 소파 구매 정보" className={styles.sectionCon}>

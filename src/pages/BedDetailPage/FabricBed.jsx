@@ -30,7 +30,13 @@ function FabricBed() {
                     {/* 소셜 미디어에서 공유될 때 표시되는 이미지입니다 */}
                     {/* <meta meta property="og:image" content="https://example.com/image.jpg"/> */}
                     {/* 공유할 URL을 설정합니다. */}
-                    <meta meta property="og:url" content="https://kim-sangyong.github.io/lunacasa/fabric-bed-detail-page"/>
+                    <meta meta property="og:url" content="https://raw.githubusercontent.com/kim-sangyong/test/main/FabricBed.png"/>
+
+                    {/* 트위터 */}
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:title" content="LUNACASA - 패브릭 침대." />
+                    <meta name="twitter:description" content="패브릭 침대를 만나보세요. 흘림 걱정 없는 고급 침대입니다." />
+                    <meta name="twitter:image" content="https://raw.githubusercontent.com/kim-sangyong/test/main/FabricBed.png" />
             </Helmet>
 
             <section aria-label="패브릭 침대 구매 정보" className={styles.sectionCon}>

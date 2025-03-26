@@ -28,11 +28,17 @@ function BedPage(){
                 {/* 소셜 미디어에서 공유될 때 표시되는 제목입니다. */}
                 <meta property="og:title" content="LUNACASA - 고급 침대." />
                 {/* 소셜 미디어에서 공유될 때 표시되는 설명입니다. */}
-                <meta property="og:description" content="감각적인 고급 침대를 만나보세요. LUNACASA의 독보적인 침대."/>
+                <meta property="og:description" content="감각적인 고급 침대를 만나보세요. 루나카사-LUNACASA의 독보적인 침대."/>
                 {/* 소셜 미디어에서 공유될 때 표시되는 이미지입니다 */}
-                {/* <meta meta property="og:image" content="https://example.com/image.jpg"/> */}
+                <meta meta property="og:image" content="https://raw.githubusercontent.com/kim-sangyong/test/main/PremiumMemoryFoamBed.png"/>
                 {/* 공유할 URL을 설정합니다. */}
                 <meta meta property="og:url" content="https://kim-sangyong.github.io/lunacasa/bed"/>
+
+                {/* 트위터 */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="LUNACASA - 고급 침대." />
+                <meta name="twitter:description" content="감각적인 고급 침대를 만나보세요. 루나카사-LUNACASA의 독보적인 침대." />
+                <meta name="twitter:image" content="https://raw.githubusercontent.com/kim-sangyong/test/main/PremiumMemoryFoamBed.png" />
              </Helmet>
         <section className={styles.container} aria-label="침대 상품 목록">
             <article className={styles.product}>
