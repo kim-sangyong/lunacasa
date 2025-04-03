@@ -4,7 +4,7 @@ import Instagram from "../assets/images/Footer-img/Instagram.svg";
 import Gmail from "../assets/images/Footer-img/Gmail.svg";
 import styles from "../assets/styles/Footer.module.scss";
 
-function Footer() {
+const Footer = () =>{
     return(
         <footer>
             <div className={styles.information}>

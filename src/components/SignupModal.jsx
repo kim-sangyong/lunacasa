@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../assets/styles/SignupModal.module.scss";
 
-function SignupModal({ closeModal }) {
+const SignupModal = ({ closeModal }) => {
     return(
         <form className={styles.signupCon} aria-label="회원가입 폼 제출">
             <button type="button" onClick={closeModal} className={styles.cancelBtn} aria-label="취소 버튼">

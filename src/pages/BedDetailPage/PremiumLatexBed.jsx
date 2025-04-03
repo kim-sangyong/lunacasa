@@ -11,7 +11,7 @@ import Shaking from "../../assets/images/DetailImages/PremiumLatexBed/Shaking.jp
 import TestReport from "../../assets/images/DetailImages/LatexBed/TestReport.jpg";
 import BackToTop from "../../components/ScrollButton.jsx";
 
-function PremiumLatexBed() {
+const PremiumLatexBed = () =>  {
     return(
         <>
             <Helmet>

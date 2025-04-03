@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../assets/styles/LoginModal.module.scss";
 
-function LoginModal({ closeLoginModal }) {
+const LoginModal = ({ closeLoginModal }) => {
     return(
         <form className={styles.logCon} aria-label="로그인 폼 제출">
             <button type="button" onClick={closeLoginModal} className={styles.cancelBtn} aria-label="취소 버튼">

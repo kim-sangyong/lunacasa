@@ -13,7 +13,7 @@ import TestReport from "../../assets/images/DetailImages/LatexBed/TestReport.jpg
 
 
 
-function CowLeatherSofa(){
+const CowLeatherSofa = () => {
     return(
         <>
             <Helmet>

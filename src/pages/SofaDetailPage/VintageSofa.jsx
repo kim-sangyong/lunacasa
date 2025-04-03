@@ -11,7 +11,7 @@ import TestReport from "../../assets/images/DetailImages/LatexBed/TestReport.jpg
 
 
 
-function VintageSofa() {
+const VintageSofa = () => {
     return(
         <>
             <Helmet>

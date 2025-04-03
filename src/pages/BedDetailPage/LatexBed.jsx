@@ -9,7 +9,7 @@ import LatexBed from "../../assets/images/DetailImages/LatexBed/LatexBed.jpg";
 import TestReport from "../../assets/images/DetailImages/LatexBed/TestReport.jpg";
 import BackToTop from "../../components/ScrollButton.jsx";
 
-function LatexBedDetail(){
+const LatexBedDetail = () => {
     return(
         <>
             <Helmet>

@@ -12,7 +12,7 @@ import Line from "../../assets/images/DetailImages/LowBed/Line.png";
 import TestReport from "../../assets/images/DetailImages/LatexBed/TestReport.jpg";
 import BackToTop from "../../components/ScrollButton";
 
-function LowBed() {
+const LowBed = () =>  {
     return(
         <>
         <Helmet>

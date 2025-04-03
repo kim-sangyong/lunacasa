@@ -8,7 +8,7 @@ import TestReport from "../../assets/images/DetailImages/LatexBed/TestReport.jpg
 import Culling from "../../assets/images/DetailImages/MemoryFoam/Culling.png";
 import Robust from "../../assets/images/DetailImages/MemoryFoam/Robust.png";
 
-function MemoryFoam() {
+const MemoryFoam = () =>  {
     return(
         <>
             <Helmet>

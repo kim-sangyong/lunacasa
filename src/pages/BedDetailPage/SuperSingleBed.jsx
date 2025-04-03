@@ -7,7 +7,7 @@ import High from "../../assets/images/DetailImages/SuperSingleBed/High.png";
 import TestReport from "../../assets/images/DetailImages/LatexBed/TestReport.jpg";
 import BackToTop from "../../components/ScrollButton.jsx";
 
-function SuperSingleBed() {
+const SuperSingleBed = () =>  {
     return(
         <>
          <Helmet>

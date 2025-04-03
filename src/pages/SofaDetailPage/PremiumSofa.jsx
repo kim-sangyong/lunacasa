@@ -8,7 +8,7 @@ import Arrow from "../../assets/images/SofaDetailImage/PremiumSofa/Arrow.png";
 import BackToTop from "../../components/ScrollButton";
 import TestReport from "../../assets/images/DetailImages/LatexBed/TestReport.jpg";
 
-function PremiumSofa() {
+const PremiumSofa = () => {
     return(
         <>
             <Helmet>

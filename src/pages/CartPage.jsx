@@ -4,7 +4,7 @@ import styles from "../assets/styles/CartPage.module.scss";
 import Cartpage from "../assets/images/Header-img/CartPage.svg";
 import BackToTop from "../components/ScrollButton.jsx";
 
-function CartPage(){
+const CartPage = () =>{
     return(
         <>
         <Helmet>

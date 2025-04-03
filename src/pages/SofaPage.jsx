@@ -5,7 +5,7 @@ import styles from "../assets/styles/SofaPage.module.scss";
 import SofaData from "../data/SofaData";
 import BackToTop from "../components/ScrollButton.jsx";
 
-function SofaPage(){
+const SofaPage = () => {
     return(
         <>
         <Helmet>

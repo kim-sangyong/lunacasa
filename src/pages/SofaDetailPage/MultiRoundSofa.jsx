@@ -8,7 +8,7 @@ import Fabric from "../../assets/images/SofaDetailImage/MultiRoundSofa/Fabric.jp
 import BackToTop from "../../components/ScrollButton";
 import TestReport from "../../assets/images/DetailImages/LatexBed/TestReport.jpg";
 
-function MultiRoundSofa() {
+const MultiRoundSofa = () =>  {
     return(
         <>
             <Helmet>

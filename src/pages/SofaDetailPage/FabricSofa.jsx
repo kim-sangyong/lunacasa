@@ -8,7 +8,7 @@ import BackToTop from "../../components/ScrollButton";
 import TestReport from "../../assets/images/DetailImages/LatexBed/TestReport.jpg";
 
 
-function FabricSofa(){
+const FabricSofa = () => {
     return(
         <>
             <Helmet>

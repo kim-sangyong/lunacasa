@@ -10,7 +10,7 @@ import Wind from "../../assets/images/SofaDetailImage/MicrofiberSofa/Wind.png";
 import BackToTop from "../../components/ScrollButton";
 import TestReport from "../../assets/images/DetailImages/LatexBed/TestReport.jpg";
 
-function MicrofiberSofa() {
+const MicrofiberSofa = () =>  {
     return(
         <>
             <Helmet>

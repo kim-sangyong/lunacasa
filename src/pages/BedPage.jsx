@@ -6,7 +6,7 @@ import BedData from "../data/BedData.js";
 import BackToTop from "../components/ScrollButton.jsx";
 
 
-function BedPage(){
+const BedPage = () =>{
     return(
         <>
         <Helmet>

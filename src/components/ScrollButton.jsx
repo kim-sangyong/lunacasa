@@ -5,7 +5,7 @@ import { useLocation } from "react-router-dom";
 import styles from "../assets/styles/Scroll.module.scss";
 
 // 위로가기 버튼 누르면 상단으로 이동  컴포넌트
-function BackToTop() {
+const BackToTop = () =>  {
   const { pathname } = useLocation(); // 현재 URL 경로 가져오기
 
     useEffect(() => {

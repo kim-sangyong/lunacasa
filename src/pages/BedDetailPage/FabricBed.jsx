@@ -7,7 +7,7 @@ import Drop from "../../assets/images/DetailImages/FabricBed/Drop.jpg";
 import BackToTop from "../../components/ScrollButton";
 import TestReport from "../../assets/images/DetailImages/LatexBed/TestReport.jpg";
 
-function FabricBed() {
+const FabricBed = () =>  {
     return(
         <>
             <Helmet>

@@ -9,7 +9,7 @@ import styles from "../assets/styles/Header.module.scss";
 import useHeader from "../hooks/useHeader";
 
 //props로 useModal 로직 전달
-function Header({ openModal, openLoginModal }){
+const Header = ({ openModal, openLoginModal }) =>{
 
     const {
         searchTerm,

@@ -28,7 +28,7 @@ import NextArrow from "../components/NextArrow.jsx";
 import PrevArrow from "../components/PrevArrow.jsx";
 
 
-function MainPage(){
+const MainPage = () =>{
 
     const settings = {
         arrows: true,

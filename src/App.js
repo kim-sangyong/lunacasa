@@ -26,10 +26,9 @@ import PremiumSofa from "./pages/SofaDetailPage/PremiumSofa.jsx";
 
 
 
-  function App() {
+  const App = () => {
+
     const { isModalOpen, openModal, closeModal, isLoginModalOpen, openLoginModal, closeLoginModal } = useModal();  // 모달 상태 관리
-  
-  
     return (
       <BrowserRouter basename="/lunacasa">
         {/* 회원가입 및 로그인 모달 */}
